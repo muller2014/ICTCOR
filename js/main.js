@@ -110,7 +110,7 @@ function closeWindowPhone(){
 
        $("#window-call-now")
         .velocity({
-          marginTop: "-200%",
+          marginTop: "-300%",
         }, {
           duration: 600,
           easing: [5, 5],
@@ -238,15 +238,15 @@ function closeMask(){
             },
 
             500: {
-                slidesPerView: 2.4,
+                slidesPerView: 1.8,
                 spaceBetween: 10,
             },
             700: {
-                slidesPerView: 2.6,
+                slidesPerView: 1.8,
                 spaceBetween: 10,
             },
             1000: {
-                slidesPerView: 2.7,
+                slidesPerView: 2.5,
                 spaceBetween: 10,
             },
             1200: {
@@ -278,7 +278,7 @@ function closeMask(){
     loop: true,
     speed: 800,
     autoHeight: true,
-    slidesPerView: 2.93,
+    slidesPerView: 3,
     spaceBetween: 10,
     autoplay: {
       delay: 5000,
@@ -288,6 +288,50 @@ function closeMask(){
       prevEl: '.left-depoimentos',
       nextEl: '.right-depoimentos',
     },
+
+
+    breakpoints: {
+      50: {
+          slidesPerView: 1.2,
+          spaceBetween: 10,
+      },
+
+      350: {
+          slidesPerView: 1.45,
+          spaceBetween: 0,
+      },
+
+      500: {
+          slidesPerView: 2.4,
+          spaceBetween: 10,
+      },
+      700: {
+          slidesPerView: 1.9,
+          spaceBetween: 10,
+      },
+      1000: {
+          slidesPerView: 1.93,
+          spaceBetween: 10,
+      },
+      1200: {
+          slidesPerView: 1.93,
+          spaceBetween: 10,
+      },
+
+      1480: {
+          slidesPerView: 3,
+          spaceBetween: 10,
+      },
+      1600: {
+          slidesPerView: 3,
+          spaceBetween: 10,
+      },
+      1900: {
+          slidesPerView: 3,
+          spaceBetween:10,
+      }
+
+  }
    
   });
 
@@ -318,31 +362,7 @@ function closeMask(){
                 slidesPerView: 2.4,
                 spaceBetween: 10,
             },
-            700: {
-                slidesPerView: 2.6,
-                spaceBetween: 10,
-            },
-            1000: {
-                slidesPerView: 3.5,
-                spaceBetween: 10,
-            },
-            1200: {
-                slidesPerView: 4,
-                spaceBetween: 10,
-            },
-
-            1480: {
-                slidesPerView: 5,
-                spaceBetween: 10,
-            },
-            1600: {
-                slidesPerView: 5.5,
-                spaceBetween: 10,
-            },
-            1900: {
-                slidesPerView: 7,
-                spaceBetween: 10,
-            }
+         
 
         }
     });
@@ -367,6 +387,17 @@ function closeMask(){
                 slidesPerView: 1.50,
                 spaceBetween: 30,
             },
+
+
+            500: {
+              slidesPerView: 2.2,
+              spaceBetween: 10,
+          },
+
+            700: {
+              slidesPerView: 2.6,
+              spaceBetween: 10,
+          },
 
         }
     });
@@ -394,6 +425,16 @@ function closeMask(){
                 spaceBetween: 15,
             },
 
+            500: {
+              slidesPerView: 2.2,
+              spaceBetween: 10,
+          },
+
+            700: {
+              slidesPerView: 2.6,
+              spaceBetween: 10,
+          },
+
         }
     });
   
@@ -417,6 +458,16 @@ function closeMask(){
                 slidesPerView: 1.50,
                 spaceBetween: 15,
             },
+
+            500: {
+              slidesPerView: 2.2,
+              spaceBetween: 10,
+          },
+
+            700: {
+              slidesPerView: 2.6,
+              spaceBetween: 10,
+          },
 
         }
     });
