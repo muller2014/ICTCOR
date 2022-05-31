@@ -101,8 +101,6 @@ textarea {
 /*Jenales*/
 #mask{width: 100%; height: 0%; position: fixed; z-index: 9999; background-color:#393442 !important; opacity: 0;}
 
-
-
 /*Menu desktop*/
 #desktop-menu{width: 100%; height: auto; position: fixed; top: 0px; z-index: 9999;
 -webkit-box-shadow: 0px -18px 72px -17px rgba(0,0,0,0.19);
@@ -137,8 +135,6 @@ box-shadow: 0px -18px 72px -17px rgba(0,0,0,0.19);
 .menu-txt-atv{color:#ff1e00;}
 .ornamento-menu-atv{display: block;}
 
-
-
 /*Super banner*/
 #banner-sb-desktop{width: 100%; height: auto; position: relative; float: left; margin-top: 129px; overflow: hidden;} 
 .swiper { width: 100%; height: auto; }
@@ -155,11 +151,18 @@ box-shadow: 0px -18px 72px -17px rgba(0,0,0,0.19);
 
 
 /*Procedimentos e exames desktop*/
-#procedimentos-exames-ds{width: 100%; height: 1300px; position: relative; float: left; background-color: #eefbff; z-index: 10;}
+#procedimentos-exames-ds{width: 100%; height: 1300px; position: relative; float: left; background-color: #fff !important; z-index: 10;}
 #view-procedimentos-exames-ds{width: 1200px; height: auto; position: relative; margin: auto;}
 
 #chamada-formulario-home-desktop { width: 90%; height: 300px; position: absolute; left: 5%;  margin-top: -150px; background-color: #fff; border-radius: 15px; 
-overflow: hidden;}
+overflow: hidden;
+-webkit-box-shadow: 0px -18px 72px -17px rgba(0,0,0,0.19);
+-moz-box-shadow: 0px -18px 72px -17px rgba(0,0,0,0.19);
+-o-box-shadow: 0px -18px 72px -17px rgba(0,0,0,0.19);
+-ms-box-shadow: 0px -18px 72px -17px rgba(0,0,0,0.19);
+box-shadow: 0px -18px 72px -17px rgba(0,0,0,0.19);
+
+}
 
 .div-chamada-f-h-ds{width: 55%; height: 100%; position: relative; float: left; overflow: hidden;}
 .div-chamada-f-h-ds:last-child{width: 45%; height: 100%; position: relative; float: left;}
@@ -201,7 +204,7 @@ overflow: hidden;}
 #swiper-ds-procedimentos{width: 100%; height: auto; position: relative; float: left; margin-top: 100px; overflow: hidden;}
 
 /*Card DS procedimentos*/
-.card-ds-procedimentos{width: 400px !important; height: 340px; position: relative; float: left; background-color:#fff; margin-left: 20px; border-radius: 20px;}
+.card-ds-procedimentos{width: 400px !important; height: 340px; position: relative; float: left; background-color:#fff; margin-left: 20px; border-radius: 10px; border: 1px solid #dadada;}
 .card-ds-procedimentos h3 { width: 50%; height: auto; position: relative; float: left; margin-top: 25px; font-size: 24px; padding: 0px 20px; }
 .card-ds-procedimentos p {width: 85%; height: 120px; position: relative; float: left; margin-top: 5px; font-size: 18px; padding: 0px 20px;}
 
@@ -272,8 +275,6 @@ overflow: hidden;}
 #view-paginacao-swiper-depoimentos-ds { width: 600px; height: auto; position: relative; margin: auto; margin-top: -70px; z-index: 10; }
 #div-ctlr-swiper-depoimentos-ds{width: 211px; height: auto; position: relative; margin: auto;}
 
-
-
 .control-left-ds { width: 100px; height: 45px; position: relative; float: left; border: 1px solid #de2c30; background-color: #fff; border-radius: 30px 0px 0px 30px; cursor: pointer;}
 .control-right-ds { width: 100px; height: 45px; position: relative; float: left; margin-right: 10px; background-color: #de2c30; border: 1px solid #de2c30; border-radius: 0px 30px 30px 0px; cursor: pointer;}
 
@@ -300,7 +301,6 @@ overflow: hidden;}
 #ft-banner-cc-3 { width: 80px; height: 80px; position: absolute; left: -40px; bottom: 680px; background-color: #dadada; border-radius: 50%; border: 6px solid #fff; }
 #ft-banner-cc-4 { width: 70px; height: 70px; position: absolute; right: -34px; bottom: 540px; background-color: #dadada; border-radius: 50%; border: 6px solid #fff; }
 #ft-banner-cc-5 { width: 140px; height: 140px; position: absolute; right: -64px; top: 790px; background-color: #dadada; border-radius: 50%; border: 6px solid #fff; }
-
 
 /*Estrutura*/
 #estrutura-mb{width: 100%; height: 800px; position: relative; float: left; margin-top: 0px; background-color: #251f30;}
@@ -398,7 +398,11 @@ overflow: hidden;}
 #icon-close-depoimento-card-aberto{width:25px; height:25px; position: absolute; left: 50%; top: 50%; margin-left: -12.5px; margin-top: -12.5px; background: url(../img/close.png); background-size:25px;}
 #close-depoimento-card-aberto:hover{background-color:#db1b1b;}
 
-
+/* Inicio página de exames e procedimentos */
+#header-pagina-procedimentos{width: 100%; height: 500px; position: relative; float: left; background-color: #fff; }
+.conteudo-header-pg-procedimentos{width: 60%; height: auto; position: relative; float: left; }
+.conteudo-header-pg-procedimentos h1{width: 100%; height: auto; position: relative; float: left; font-size: 20px; color:#3f3d56;}
+.conteudo-header-pg-procedimentosv p{width: 100%; height: auto; position: relative; float: left; font-size: 15px; color:#353948;}
 
 /*Telas menores*/
 @media only screen  
@@ -920,6 +924,14 @@ box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06);
 #close-depoimento-card-aberto {width: 50px; height: 50px; position: absolute; bottom: 20px; left: 50%; margin-left: -25px; background-color: #f41a1a; border-radius: 100%; cursor: pointer;}
 #icon-close-depoimento-card-aberto{width:25px; height:25px; position: absolute; left: 50%; top: 50%; margin-left: -12.5px; margin-top: -12.5px; background: url(../img/close.png); background-size:25px;}
 #close-depoimento-card-aberto:hover{background-color:#db1b1b;}
+
+
+/* Inicio página de exames e procedimentos */
+#header-pagina-procedimentos{width: 100%; height: 500px; position: relative; float: left; background-color: #fff; }
+.conteudo-header-pg-procedimentos{width: 60%; height: auto; position: relative; float: left; }
+.conteudo-header-pg-procedimentos h1{width: 100%; height: auto; position: relative; float: left; font-size: 20px; color:#3f3d56;}
+.conteudo-header-pg-procedimentosv p{width: 100%; height: auto; position: relative; float: left; font-size: 15px; color:#353948;}
+
 
 
 }
