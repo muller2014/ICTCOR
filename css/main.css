@@ -99,7 +99,7 @@ textarea {
 
 
 /*Jenales*/
-#mask{width: 100%; height: 0%; position: fixed; z-index: 9999; background-color:#393442 !important; opacity: 0;}
+#mask{width: 100%; height: 0%; position: fixed; z-index: 9999; background-color:#fff !important; opacity: 0;}
 
 /*Menu desktop*/
 #desktop-menu{width: 100%; height: auto; position: fixed; top: 0px; z-index: 9999;
@@ -236,7 +236,7 @@ box-shadow: 0px -18px 72px -17px rgba(0,0,0,0.19);
 .item-list-especialidades:hover { border-bottom: 1px  solid red;}
 
 #cta-lista-especialidades-ds {width: 100%; height: auto; position: relative; float: left; margin-top: 10px;}
-#cta-especialidades-lista-ds { width: auto; height: auto; position: relative; float: left; margin-left: 0px; padding: 10px 20px; font-size: 18px; color: #fff; background-color: #5b4f74; border-radius: 30px; cursor: pointer;}
+#cta-especialidades-lista-ds { width: auto; height: auto; position: relative; float: left; margin-left: 0px; padding: 10px 20px; font-size: 18px; color: #fff; background-color: #6a7e8e; border-radius: 30px; cursor: pointer;}
 #cta-especialidades-lista-ds:hover {background-color:#756792;}
 
 
@@ -254,7 +254,7 @@ box-shadow: 0px -18px 72px -17px rgba(0,0,0,0.19);
 #swiper-depoimentos-desktop { width: 100%; height: auto; position: relative; float: left; overflow: hidden; margin-top: -20px; }
 #view-swiper-depoimentos-ds{width: 1200px; height: auto; position: relative; margin: auto;  overflow: hidden; z-index: 10; background-color: #fff; border: 60px solid #fff;}
 
-.bg-swiper-depoimentos-ds { width: 100%; height: 280px; position: absolute; top: 50%; margin-top: -180px; background: url(../img/bg-depoimentos.png); background-repeat: repeat; }
+.bg-swiper-depoimentos-ds { width: 100%; height: 280px; position: absolute; top: 50%; margin-top: -180px; background: url(../img/bg-depoimentos.png); background-repeat: repeat; opacity: 0.4;}
 
 /*Item card depoimento*/
 .card-testimonials-mb { width: 100%; height: 470px; position: relative; float: left; margin-left: 0px; background-color: #fff5f5; border-radius: 20px; }
@@ -279,7 +279,7 @@ box-shadow: 0px -18px 72px -17px rgba(0,0,0,0.19);
 .control-right-ds { width: 100px; height: 45px; position: relative; float: left; margin-right: 10px; background-color: #de2c30; border: 1px solid #de2c30; border-radius: 0px 30px 30px 0px; cursor: pointer;}
 
 /*Banner corpo clinico*/
-#banner-corpo-clinico {width: 100%; height: 450px; position: relative; float: left; margin-top: -80px; background-color:#eff9fa; overflow: hidden;}
+#banner-corpo-clinico {width: 100%; height: 450px; position: relative; float: left; margin-top: -80px; background-color:#f5f5f5; overflow: hidden;}
 #view-banner-corpo-clinico {width: 700px; height: auto; position: relative; margin: auto; z-index: 10;}
 
 
@@ -292,7 +292,7 @@ box-shadow: 0px -18px 72px -17px rgba(0,0,0,0.19);
 #view-banner-corpo-clinico p { width: 100%; height: auto; position: relative; float: left; margin-top: 0px; padding: 0px 180px; font-size: 22px; text-align: center; margin-top: -5px; }
 
 #cta-corpo-clinico-ds{width: 100%; height: auto; position: relative; float: left; margin-top: 0px;}
-#cta-int-corpo-clinico-ds{width: 220px; height: auto; position: relative; margin: auto; padding:10px 0px; background-color:#5b4f74; color: #fff; font-size: 20px; text-align: center; border-radius: 40px; cursor: pointer;} 
+#cta-int-corpo-clinico-ds{width: 220px; height: auto; position: relative; margin: auto; padding:10px 0px; background-color:#6a7e8e; color: #fff; font-size: 20px; text-align: center; border-radius: 40px; cursor: pointer;} 
 #cta-int-corpo-clinico-ds:hover {background-color:#3f3652;}
 
 #ft-banner-cc-1 { width: 120px; height: 120px; position: absolute; left: -30px; top: 120px; background-color: #dadada; border-radius: 50%; border: 6px solid #fff; }
@@ -303,11 +303,11 @@ box-shadow: 0px -18px 72px -17px rgba(0,0,0,0.19);
 #ft-banner-cc-5 { width: 140px; height: 140px; position: absolute; right: -64px; top: 790px; background-color: #dadada; border-radius: 50%; border: 6px solid #fff; }
 
 /*Estrutura*/
-#estrutura-mb{width: 100%; height: 800px; position: relative; float: left; margin-top: 0px; background-color: #251f30;}
+#estrutura-mb{width: 100%; height: 800px; position: relative; float: left; margin-top: 0px; background-color: #283344;}
 #particles-js { width: 100%; height: 100%; position: absolute; top: 0px; z-index: 1; }
 
-#estrutura-mb h3 { width: 100%; height: auto; position: relative; float: left; margin-top: 250px; padding: 0px 20px; font-size: 45px; color: #fff; text-align: center; z-index: 10; font-weight: 500; }
-#estrutura-mb p{width:700px; height: auto; left: 50%; position: relative; float: left; margin-left: -350px; margin-top: 0px; font-size: 22px; color: #fff !important; text-align: center; padding: 0px 20px; z-index: 10; opacity: 1 !important;}
+#estrutura-mb h3 { width: 100%; height: auto; position: relative; float: left; margin-top: 264px; padding: 0px 20px; font-size: 35px; color: #fff; text-align: center; z-index: 10; font-weight: 500; }
+#estrutura-mb p { width: 700px; height: auto; left: 50%; position: relative; float: left; margin-left: -350px; margin-top: 0px; font-size: 20px; color: #fff !important; text-align: center; padding: 0px 30px; z-index: 10; opacity: 1 !important; }
 
 #cta-estrutura{width: 100%; height: auto; position: relative; float: left; margin-top: 10px; z-index: 10;}
 #cta-estrutura-int{width: 220px; height: auto; position: relative; margin: auto; padding: 12px 0px; background-color: #de2c30; font-size: 18px !important; color: #fff; text-align: center; border-radius: 50px; cursor: pointer;}
@@ -320,30 +320,27 @@ box-shadow: 0px -18px 72px -17px rgba(0,0,0,0.19);
 
 /*Convenios*/
 #convenios-mb{width: 100%; height: auto; position: relative; float: left; background-color: #fff;}
-#convenios-mb h2 { width: 100%; height: auto; position: relative; float: left; margin-top: 140px; padding: 0px 20px; font-size: 44px; text-align: center; font-weight: 400; }
-#convenios-mb p { width: 60%; height: auto; position: relative; float: left; margin-left: 20%; margin-top: -4px; padding: 0px 320px; font-size: 24px; text-align: center; font-weight: 400; }
+#convenios-mb h2 { width: 100%; height: auto; position: relative; float: left; margin-top: 140px; padding: 0px 20px; font-size: 39px; text-align: center; font-weight: 400; }
+#convenios-mb p { width: 80%; height: auto; position: relative; float: left; margin-left: 10%; margin-top: -4px; padding: 0px 320px; font-size: 21px; text-align: center; font-weight: 400; }
 
 #cta-convenios{width: 100%; height: auto; position: relative; float: left; margin-top: 20px;}
-#cta-convenios-int { width: 320px; height: auto; position: relative; margin: auto; padding: 16px 0px; background-color: #5b4f74; color: #fff; text-align: center; font-size: 19px; border-radius: 30px; cursor: pointer; }
-#cta-convenios-int:hover{background-color: #82759e;}
+#cta-convenios-int { width: 320px; height: auto; position: relative; margin: auto; padding: 16px 0px; background-color: #6a7e8e; color: #fff; text-align: center; font-size: 19px; border-radius: 30px; cursor: pointer; }
+#cta-convenios-int:hover{background-color: #4e606e;}
 
 
-/*Por dentro do ICTCor*/
-#por-dentro-ictcor-mb { width: 100%; height: 513px; position: relative; float: left; margin-top: 190px; background-color: #d60019; }
-#view-por-dentro-ictcor { width: 1500px; height: auto; position: relative; margin: auto; }
+ /*Por dentro do ICTCor*/
+ #por-dentro-ictcor-mb { width: 100%; height: 434px; position: relative; float: left; margin-top: 190px; background-color: #d60019; } #view-por-dentro-ictcor { width: 1500px; height: auto; position: relative; margin: auto; }
+ #por-dentro-ictcor-mb h2 { width: auto; height: auto; position: relative; float: left; margin-top: 31px; font-size: 33px; color: #fff; line-height: 47px; padding: 0px 20px; }
+ #cta-all-videos { width: auto; height: auto; position: relative; float: right; margin-right: 20px; margin-top: 66px; padding: 10px 40px; font-size: 21px; color: #fff; background-color: #b80016; border-radius: 40px; cursor: pointer; font-weight: 600; }
+ #cta-all-videos:hover{background-color:#9d0013;}
 
-#por-dentro-ictcor-mb h2 { width: auto; height: auto; position: relative; float: left; margin-top: 80px; font-size: 40px; color: #fff; line-height: 47px; padding: 0px 20px; }
-
-#cta-all-videos { width: auto; height: auto; position: relative; float: right; margin-right: 20px; margin-top: 118px; padding: 10px 40px; font-size: 21px; color: #fff; background-color: #b80016; border-radius: 40px; cursor: pointer; font-weight: 600; }
-#cta-all-videos:hover{background-color:#9d0013;}
-
-#faixa-videos-ds{width: 100%; height: auto; position: relative; float: left; margin-top: 40px;}
+#faixa-videos-ds { width: 100%; height: auto; position: relative; float: left; margin-top: 10px; }
 
 /*Card video*/
-.card-video-ds { width: 32%; height: auto; position: relative; float: left; margin-left: 1%; min-height: 400px; background-color: #fff; border: 1px solid #e6e6e6; border-radius: 10px; overflow: hidden; cursor: pointer; }
+.card-video-ds { width: 32%; height: auto; position: relative; float: left; margin-left: 1%; min-height: 380px; background-color: #fff; border: 1px solid #e6e6e6; border-radius: 10px; overflow: hidden; cursor: pointer; }
 .card-video-ds:hover{background-color: #ffe9e9;}
 .thumb-video-card-ds{width: 100%; height: auto; position: relative; float: left;}
-.card-video-ds h3 { width: 70% !important; height: auto; position: relative; float: left; margin-top: 20px !important; font-size: 21px !important; color: #3c3c3c !important; padding: 9px 30px; }
+.card-video-ds h3 { width: 70% !important; height: auto; position: relative; float: left; margin-top: 20px !important; font-size: 18px !important; color: #3c3c3c !important; padding: 9px 30px; }
 .icon-card-video-mb { width: 34px; height: 34px; position: absolute; right: 20px; bottom: 50%; margin-bottom: -151px; background-color: #d60019; border-radius: 50%; }
 .icon-card-video-int{width: 20px; height: 20px; position: absolute; left: 50%; top: 50%; margin-left: -10px; margin-top: -10px; background: url(../img/play-icon.png); background-size: 20px;} 
 
@@ -358,30 +355,30 @@ box-shadow: 0px -18px 72px -17px rgba(0,0,0,0.19);
 
 #cta-como-chegar-mb{width: 100%; height: auto; position: relative; float: left; margin-top: 20px;}
 
-#cta-como-chegart-int-mb { width: 180px; height: auto; position: relative; margin: auto; padding: 22px 0px; background-color: #5b4f74; border-radius: 30px; cursor: pointer; }
+#cta-como-chegart-int-mb { width: 180px; height: auto; position: relative; margin: auto; padding: 22px 0px; background-color: #6a7e8e; border-radius: 30px; cursor: pointer; }
 #icon-cta-como-chegar { width: 30px; height: 30px; position: relative; float: left; margin-left: 10px; margin-top: -14px; }
 #txt-cta-como-chegar{width: auto; height: auto; position: relative; float: left; margin-top: -11px; margin-left: 5px; color: #fff; font-size: 17px;}
 #cta-como-chegart-int-mb:hover{background-color:#786a96;}
 
 .sessao-rodape-mb { width: 25%; height: auto; position: relative; float: right; margin-top: 40px; border-top: 0px solid #dadada; padding-bottom: 100px; }
-.sessao-rodape-mb h3{width: 100%; height:auto; position: relative; margin-top: 30px; text-align: left; color: #ff344d; font-size: 24px; padding: 0px 20px; font-weight: 400;}
+.sessao-rodape-mb h3 { width: 100%; height: auto; position: relative; margin-top: 30px; text-align: left; color: #ff2a2a; font-size: 22px; padding: 0px 20px; font-weight: 400; }
 .sessao-rodape-mb p {width: 100%; height: auto; position: relative; float: left; margin-top: 18px !important; padding: 0px 20px; font-size: 17px !important;}
 .sessao-rodape-mb b{font-weight: 600; opacity: 1 !important;}
 
-.sessao-rodape-mb ul li{width: 100%; height: auto; position: relative; float: left; font-size: 20px; margin-bottom: 5px; padding-left: 20px; cursor: pointer;}
+.sessao-rodape-mb ul li { width: 100%; height: auto; position: relative; float: left; font-size: 19px; margin-bottom: 5px; padding-left: 20px; cursor: pointer; font-weight: 300; }
 .sessao-rodape-mb ul li:hover {color:#ff243a;}
 .atv-link-desktop {color: #ff243a;font-weight: 400;}
 
 .cta-phone-rodape-mb { width: 100%; height: auto; position: relative; float: left; margin-top: 0px; margin-left: 15px; margin-bottom: 10px; }
 
-.cta-phone-rodape-int-mb { width: 180px; height: auto; position: relative; margin: unset; padding: 22px 0px; background-color: #ff2121; border-radius: 30px; cursor: pointer; z-index: 10;}
+.cta-phone-rodape-int-mb { width: 180px; height: auto; position: relative; margin: unset; padding: 22px 0px; background-color: #ffffff; border-radius: 30px; cursor: pointer; z-index: 10; border: 1px solid #f00; }
 .icon-cta-phone-rodape-mb { width: 30px; height: 30px; position: relative; float: left; margin-left: 10px; margin-top: -14px; }
-.txt-cta-phone-rodape-mb {width: auto; height: auto; position: relative; float: left; margin-top: -11px; margin-left: 14px; color: #fff; font-size: 17px;}
-.cta-phone-rodape-int-mb:hover{background-color:#ff4545;}
+.txt-cta-phone-rodape-mb { width: auto; height: auto; position: relative; float: left; margin-top: -11px; margin-left: 14px; color: #ff2424; font-size: 17px; }
+.cta-phone-rodape-int-mb:hover{background-color:#ffe4e5;}
 
-#fim-rodape-mb{width: 100%; height: auto; position: relative; float: left; margin-top: 15px; padding: 20px 5%; background-color:#262b38;}
-#link-site-rodape-mb{width: auto; height: auto; position: relative; float:left; margin-right: 20px; font-size: 17px; color: #fff; font-weight: 400; cursor: pointer;}
-#link-politicas-rodape-mb{width: auto; height: auto; position: relative; float:right; font-size: 17px; color: #fff; font-weight: 400; cursor: pointer;}
+#fim-rodape-mb { width: 100%; height: auto; position: relative; float: left; margin-top: 15px; padding: 20px 5%; background-color: #ffffff; border-top: 1px solid #e9e9e9; }
+#link-site-rodape-mb { width: auto; height: auto; position: relative; float: left; margin-right: 20px; font-size: 17px; color: #ff1c1c; font-weight: 400; cursor: pointer; }
+#link-politicas-rodape-mb { width: auto; height: auto; position: relative; float: right; font-size: 17px; color: #ff1c1c; font-weight: 400; cursor: pointer; }
 .item-sm-rd-mb{width: 35px; height: 35px; position: relative; float: left; margin-top: -8px; margin-right: 10px; cursor: pointer;}
 
 
@@ -399,10 +396,37 @@ box-shadow: 0px -18px 72px -17px rgba(0,0,0,0.19);
 #close-depoimento-card-aberto:hover{background-color:#db1b1b;}
 
 /* Inicio página de exames e procedimentos */
-#header-pagina-procedimentos{width: 100%; height: 500px; position: relative; float: left; background-color: #fff; }
-.conteudo-header-pg-procedimentos{width: 60%; height: auto; position: relative; float: left; }
-.conteudo-header-pg-procedimentos h1{width: 100%; height: auto; position: relative; float: left; font-size: 20px; color:#3f3d56;}
-.conteudo-header-pg-procedimentos p{width: 100%; height: auto; position: relative; float: left; font-size: 15px; color:#353948;}
+#header-pagina-procedimentos { width: 100%; height: 840px; position: relative; float: left; background-color: #fff; overflow: hidden; }
+#view-header-pg-procedimentos { width: 90%; height: 100%; position: relative; margin: auto; }
+.conteudo-header-pg-procedimentos { width: 60%; height: 100%; position: relative; float: left; padding: 0px 0px 0px 20px; z-index: 15;}
+.conteudo-header-pg-procedimentos h1 { width: 100%; height: auto; position: relative; float: left; margin-top: 294px; font-size: 60px; color: #3f3d56; }
+.conteudo-header-pg-procedimentos p { width: 100%; max-width: 670px; height: auto; position: relative; margin-top: -20px; float: left; font-size: 24px; color: #353948; }
+#cta-header-pg-procedimentos {width: 100%; height: auto; position: relative; float: left; margin-top: 5px; }
+#cta-header-pg-procedimentos-int { width: auto; height: auto; position: relative; float: left; padding: 15px 33px; background-color: #de2c30; color: #fff; font-size: 19px; border-radius: 50px; cursor: pointer;}
+#cta-header-pg-procedimentos-int:hover{background-color: #b12225; }
+
+.imagem-header-pg-procedimentos {width: 40%; height: 100%; position: relative; float: left;}
+#circle-bg-header-procedimentos { width: 1030px; height: 1030px; position: absolute; bottom: -600px; right: -212px; background-color:#ededed; border-radius: 50%; }
+#dr-header-procedimentos { width: 610px; height: 705px; position: absolute; bottom: 0px; right: 19px; background: url(../img/dr-header.png); background-size: 610px; z-index: 10; }
+
+#div-pg-procedimentos { width: 100%; height: auto; position: relative; float: left; background-color: #fff; padding: 0px 0px 60px 0px;  border-radius: 0px 0px 0px 0px; z-index: 90; margin-top: -50px;
+-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0); -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0); -o-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0); -ms-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0); box-shadow: 0px 0px 15px 0px rgba(0,0,0,0);
+}
+
+#view-pg-procedimentos { width: 95%; height: auto; position: relative; float: left; margin-left: 2.5%; margin-top: 120px; padding: 0px 20px; }
+#bg-dots-procedimentos{width: 50%; height: 300px; position: absolute; top: 0px; left: 0px; background: url(../img/bg-depoimentos.png); background-repeat: repeat; opacity: 0.2;}
+
+/* item procedimentos pg */
+.item-procedimento-card-mb-ds { width: 18%; height: 292px; position: relative; float: left; margin-left: 2%; margin-bottom: 36px; padding: 15px 15px; background-color: #fff; border: 1px solid #dadada; border-radius: 10px; cursor: pointer; z-index: 10;}
+.item-procedimento-card-mb-ds p { width: 75%; height: 35px; position: relative; float: left; margin-left: 0px; margin-top: 5px; font-size: 22px; line-height: 25px; color: #313131; }
+.sobre-card-procedimento-card-mb-ds { width: 100%; height: auto; position: relative; float: left; font-size: 16px; color: #78858c; padding: 0px 0px; margin-top: 10px; font-weight: 300; }
+.icon-item-procedimento-card-mb-ds { width: 50px; height: 50px; position: absolute; right: 13px; float: right; border-radius: 50%; background-color: #e51f36; }
+.icon-item-procedimento-card-mb-ds-int { width: 30px; height: 30px; position: absolute; top: 50%; left: 50%; margin-left: -15px; margin-top: -15px; }
+.item-procedimento-card-mb-ds:hover{background-color:#ffe1e4;  border: 1px solid #ffc6cc;}
+
+.cta-procedimento-card-mb-ds{width: auto; height: auto; position: absolute; bottom: 20px; padding: 5px 30px; font-size: 18px; color: #fff; background-color: #e42e3e; border-radius: 20px; cursor: pointer; opacity: 0;}
+.item-procedimento-card-mb-ds:hover .cta-procedimento-card-mb-ds{ opacity: 1;}
+
 
 /*Telas menores*/
 @media only screen  
@@ -452,15 +476,15 @@ and (max-width:1500px) {
 #convenios-mb p { width: 60%; height: auto; position: relative; float: left; margin-left: 20%; margin-top: -4px; padding: 0px 20px; font-size: 24px; text-align: center; font-weight: 400; }
 
 /*Por dentro do ICTCor*/
-#view-por-dentro-ictcor { width: 1000px; height: auto; position: relative; margin: auto; }
-#por-dentro-ictcor-mb { width: 100%; height: 420px; position: relative; float: left; margin-top: 190px; background-color: #d60019; }
-#por-dentro-ictcor-mb h2 { width: auto; height: auto; position: relative; float: left; margin-top: 80px; font-size: 35px; color: #fff; line-height: 47px; padding: 0px 20px; }
+#view-por-dentro-ictcor { width: 95%; height: auto; position: relative; margin: auto; }
+#por-dentro-ictcor-mb { width: 100%; height: 385px; position: relative; float: left; margin-top: 190px; background-color: #d60019; }
+#por-dentro-ictcor-mb h2 { width: auto; height: auto; position: relative; float: left; margin-top: 34px; font-size: 30px; color: #fff; line-height: 40px; padding: 0px 20px; }
 
 
 /*card video */
 .card-video-ds { width: 32%; height: auto; position: relative; float: left; margin-left: 1%; min-height: 280px; background-color: #fff; border: 1px solid #e6e6e6; border-radius: 10px; overflow: hidden; cursor: pointer; }
 .card-video-ds h3 { width: 70% !important; height: auto; position: relative; float: left; margin-top: 20px !important; font-size: 15px !important; color: #3c3c3c !important; padding: 9px 30px; }
-.icon-card-video-mb { width: 34px; height: 34px; position: absolute; right: 20px; bottom: 50%; margin-bottom: -118px; background-color: #d60019; border-radius: 50%; }
+.icon-card-video-mb { width: 34px; height: 34px; position: absolute; right: 20px; bottom: 45%; margin-bottom: -118px; background-color: #d60019; border-radius: 50%; }
 
 /*Rodape*/
 #rodape { width: 100%; height: auto; position: relative; float: left; padding-bottom: 0px; overflow: hidden;}
@@ -470,6 +494,22 @@ and (max-width:1500px) {
 .sessao-rodape-mb { width: 33%; height: auto; position: relative; float: right; margin-top: 40px; border-top: 0px solid #dadada; padding-bottom: 100px; }
 .sessao-rodape-mb h3 { width: 100%; height: auto; position: relative; margin-top: 30px; text-align: left; color: #ff344d; font-size: 22px; padding: 0px 20px; font-weight: 400; }
 .sessao-rodape-mb p { width: 100%; height: auto; position: relative; float: left; margin-top: 18px !important; padding: 0px 20px; font-size: 16px !important; }
+
+
+/* Página de procedimentos */
+.conteudo-header-pg-procedimentos { width: 50%; height: 100%; position: relative; float: left; padding: 0px 0px 0px 20px; z-index: 15; }
+#view-pg-procedimentos { width: 97%; height: auto; position: relative; float: left; margin-left: 1%; margin-top: 120px; padding: 0px 0px; }
+.conteudo-header-pg-procedimentos h1 { width: 100%; height: auto; position: relative; float: left; margin-top: 280px; font-size: 48px; color: #3f3d56; }
+.conteudo-header-pg-procedimentos p { width: 100%; max-width: 490px; height: auto; position: relative; margin-top: -20px; float: left; font-size: 21px; color: #353948; }
+#cta-header-pg-procedimentos { width: 100%; height: auto; position: relative; float: left; margin-top: 23px; }
+
+.imagem-header-pg-procedimentos { width: 50%; height: 100%; position: relative; float: left; }
+#dr-header-procedimentos { width: 550px; height: 705px; position: absolute; bottom: 0px; right: 19px; background: url(../img/dr-header.png); background-size: 550px; z-index: 10; }
+#circle-bg-header-procedimentos { width: 1030px; height: 1030px; position: absolute; bottom: -600px; right: -312px; background-color: #ededed; border-radius: 50%; }
+
+.item-procedimento-card-mb-ds { width: 31%; height: 292px; position: relative; float: left; margin-left: 2%; margin-bottom: 36px; padding: 15px 15px; background-color: #fff; border: 1px solid #dadada; border-radius: 10px; cursor: pointer; z-index: 10; }
+
+
 
 
 }
@@ -517,8 +557,8 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
 
 .item-menu-mobile:hover .icon-menu-mobile{background-color: #574e6b;}
 
-.m-mobile-atv{background-color: #564a6e; color: #fff;}
-.icon-menu-mobile-atv{background-color: #9689b0;}
+.m-mobile-atv{background-color: #db0404; color: #fff;}
+.icon-menu-mobile-atv{background-color: #b90000;}
 
 .menu-mobile-faq { width: 100%; height: auto; position: relative; float: left; border-radius: 10px; padding: 15px 20px; background-color: #def5ff; color: #7a858f; font-size: 18px; font-weight: 500; }
 .menu-mobile-faq:hover{background-color: #5cceff; color: #fff;}
@@ -574,7 +614,7 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
 .item-list-especialidades { width: 100%; height: auto; position: relative; float: left; border-bottom: 1px  solid #dbd7e3; padding-bottom: 0px; margin-bottom: 13px; cursor: pointer; }
 .item-list-especialidades p { width: 80%; height: auto; position: relative; float: left; margin-left: 10px; margin-top: 3px; font-size: 20px; color: #868686; opacity: 0.7; }
 
-#cta-especialidades-lista-ds { width: auto; height: auto; position: relative; float: left; margin-left: 0px; padding: 10px 20px; font-size: 22px; color: #fff; background-color: #5b4f74; border-radius: 30px; cursor: pointer; }
+#cta-especialidades-lista-ds { width: auto; height: auto; position: relative; float: left; margin-left: 0px; padding: 10px 20px; font-size: 22px; color: #fff; background-color: #6a7e8e; border-radius: 30px; cursor: pointer; }
 
 /*Depoimentos*/
 #view-swiper-depoimentos-ds { width: 100%; height: auto; position: relative; margin: auto; overflow: hidden; z-index: 10; background-color: #fff; border: 60px solid #fff; padding-right: 30px; }
@@ -588,7 +628,7 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
 #testimonials-mb h2 { width: 100%; height: auto; position: relative; float: left; margin-top: 96px; font-size: 35px; line-height: 48px; color: #78858c; font-weight: 400; text-align: center; padding: 0px 150px; }
 #testimonials-mb p { width: 100%; height: auto; position: relative; float: left; margin-top: -12px; padding: 0px 15%; font-size: 25px; text-align: center; font-weight: 300; opacity: 0.7; }
 
-#estrutura-mb { width: 100%; height: 650px; position: relative; float: left; margin-top: 0px; background-color: #251f30; }
+#estrutura-mb { width: 100%; height: 650px; position: relative; float: left; margin-top: 0px; background-color: #283344; }
 
 /*Convenios*/
 #convenios-mb p { width: 60%; height: auto; position: relative; float: left; margin-left: 20%; margin-top: -4px; padding: 0px 20px; font-size: 24px; text-align: center; font-weight: 400; }
@@ -601,18 +641,16 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
 #convenios-mb p { width: 65%; height: auto; position: relative; float: left; margin-left: 18%; margin-top: -4px; padding: 0px 20px; font-size: 22px; text-align: center; font-weight: 400; }
 
 /*Por dentro do ICTCor*/
-#view-por-dentro-ictcor { width: 100%; height: auto; position: relative; margin: auto; }
-#por-dentro-ictcor-mb { width: 100%; height: 330px; position: relative; float: left; margin-top: 190px; background-color: #d60019; }
-#por-dentro-ictcor-mb h2 { width: auto; height: auto; position: relative; float: left; margin-top: 70px; font-size: 30px; color: #fff; line-height: 41px; padding: 0px 20px; }
-#cta-all-videos { width: auto; height: auto; position: relative; float: right; margin-right: 20px; margin-top: 109px; padding: 10px 40px; font-size: 18px; color: #fff; background-color: #b80016; border-radius: 40px; cursor: pointer; font-weight: 600; }
-
+#view-por-dentro-ictcor { width: 95%; height: auto; position: relative; margin: auto; }
+#por-dentro-ictcor-mb { width: 100%; height: 375px; position: relative; float: left; margin-top: 190px; background-color: #d60019; }
+#por-dentro-ictcor-mb h2 { width: auto; height: auto; position: relative; float: left; margin-top: 45px; font-size: 30px; color: #fff; line-height: 41px; padding: 0px 20px; }
+#cta-all-videos { width: auto; height: auto; position: relative; float: right; margin-right: 20px; margin-top: 76px; padding: 10px 40px; font-size: 18px; color: #fff; background-color: #b80016; border-radius: 40px; cursor: pointer; font-weight: 600; }
 
 /*card video */
 .card-video-ds { width: 48%; height: auto; position: relative; float: left; margin-left: 1%; min-height: 280px; background-color: #fff; border: 1px solid #e6e6e6; border-radius: 10px; overflow: hidden; cursor: pointer; }
 .card-video-ds:last-child{display: none;}
 .card-video-ds h3 { width: 70% !important; height: auto; position: relative; float: left; margin-top: 20px !important; font-size: 15px !important; color: #3c3c3c !important; padding: 9px 30px; }
 .icon-card-video-mb { width: 34px; height: 34px; position: absolute; right: 20px; bottom: 50%; margin-bottom: -118px; background-color: #d60019; border-radius: 50%; }
-
 
 /*Rodape*/
 #rodape { width: 100%; height: auto; position: relative; float: left; padding-bottom: 0px; overflow: hidden;}
@@ -623,6 +661,21 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
 .sessao-rodape-mb p { width: 100%; height: auto; position: relative; float: left; margin-top: 18px !important; padding: 0px 20px; font-size: 16px !important; }
 .sessao-rodape-mb ul li { width: 100%; height: auto; position: relative; float: left; font-size: 18px; margin-bottom: 5px; padding-left: 20px; cursor: pointer; }
 #fim-rodape-mb { width: 100%; height: auto; position: relative; float: left; margin-top: 65px; padding: 20px 5%; background-color: #262b38; }
+
+/* Inicio página de procedimentos */
+#header-pagina-procedimentos { width: 100%; height: 630px; position: relative; float: left; background-color: #fff; overflow: hidden; }
+.conteudo-header-pg-procedimentos { width: 60%; height: 100%; position: relative; float: left; padding: 0px 0px 0px 0px; z-index: 15; }
+.conteudo-header-pg-procedimentos h1 { width: 100%; height: auto; position: relative; float: left; margin-top: 221px; font-size: 37px; color: #3f3d56; }
+.conteudo-header-pg-procedimentos p { width: 80%; max-width: 670px; height: auto; position: relative; margin-top: -20px; float: left; font-size: 19px; color: #353948; }
+#cta-header-pg-procedimentos-int { width: auto; height: auto; position: relative; float: left; padding: 14px 18px; background-color: #de2c30; color: #fff; font-size: 15px; border-radius: 50px; cursor: pointer; }
+#dr-header-procedimentos { width: 300px; height: 455px; position: absolute; bottom: 0px; right: -21px; background: url(../img/dr-header.png); background-size: 300px; z-index: 10; }
+
+
+#view-pg-procedimentos { width: 95%; height: auto; position: relative; float: left; margin-left: 2.5%; margin-top: 120px; padding: 0px 0px; }
+.item-procedimento-card-mb-ds { width: 48%; height: 300px; position: relative; float: left; margin-left: 2%; margin-bottom: 36px; padding: 15px 15px; background-color: #fff; border: 1px solid #dadada; border-radius: 10px; cursor: pointer; z-index: 10; }
+#circle-bg-header-procedimentos { width: 1030px; height: 1030px; position: absolute; bottom: -600px; right: -572px; background-color: #ededed; border-radius: 50%; }
+
+
 
 }
 
@@ -670,8 +723,8 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
 
 .item-menu-mobile:hover .icon-menu-mobile{background-color: #574e6b;}
 
-.m-mobile-atv{background-color: #564a6e; color: #fff;}
-.icon-menu-mobile-atv{background-color: #9689b0;}
+.m-mobile-atv{background-color: #db0404; color: #fff;}
+.icon-menu-mobile-atv{background-color: #b90000;}
 
 .menu-mobile-faq{width: 100%; height: auto; position: relative; float: left; border-radius: 10px; padding: 15px 20px; background-color: #def5ff; color: #7a858f; font-weight: 500;}
 .menu-mobile-faq:hover{background-color: #5cceff; color: #fff;}
@@ -714,13 +767,13 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
 #call-form-home-mb{width: 100%; height: auto; position: relative; float: left; background-color: #fff; padding-bottom: 70px;}
 #view-call-form-home-mb{width: 90%; height: auto; position: relative; margin: auto;}
 
-#view-call-form-home-mb h2 { width: 100%; height: auto; position: relative; float: left; margin-top: 70px; font-size: 30px; line-height: 35px; color: #78858c; font-weight: 400; text-align: center; }
+#view-call-form-home-mb h2 { width: 100%; height: auto; position: relative; float: left; margin-top: 70px; font-size: 27px; line-height: 33px; color: #78858c; font-weight: 400; text-align: center; }
 .span-title{color:#e90f29; font-weight: 600;}
 #view-call-form-home-mb p { width: 100%; height: auto; position: relative; float: left; margin-top: -9px; font-size: 18px; text-align: center; opacity: 0.8;}
 
 .cta-mb{width: 100%; height: auto; position: relative; float: left; margin-top: 5px; }
-.cta-mb-int-fale-conosco{width: 200px; height: auto; position: relative; margin: auto; padding: 12px 0px; background-color:#5b4f74; font-size: 18px; color: #fff; text-align: center; border-radius:30px; cursor: pointer;}
-.cta-mb-int-fale-conosco:hover{background-color:#7b6c9a;}
+.cta-mb-int-fale-conosco{width: 200px; height: auto; position: relative; margin: auto; padding: 12px 0px; background-color:#6a7e8e; font-size: 18px; color: #fff; text-align: center; border-radius:30px; cursor: pointer;}
+.cta-mb-int-fale-conosco:hover{background-color:#4e606e;}
 
 
 /*Procedimentos e exames*/
@@ -743,8 +796,8 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
 #especialidades-mb{width: 100%; height: auto; position: relative; float: left; background-color: #fff;}
 #especialidades-mb h3{width: auto; height: auto; position: relative; float: left; margin-top: 40px; font-size: 25px; padding: 0px 20px;}
 
-#cta-all-especialidades{width: auto; height: auto; position: absolute; right: 20px; top: 45px; padding: 10px 20px; font-size: 16px; color: #fff; background-color:#5b4f74; border-radius: 40px; cursor: pointer; font-weight: 600;} 
-#cta-all-especialidades:hover{background-color:#7b6c9a;}
+#cta-all-especialidades{width: auto; height: auto; position: absolute; right: 20px; top: 45px; padding: 10px 20px; font-size: 16px; color: #fff; background-color:#6a7e8e; border-radius: 40px; cursor: pointer; font-weight: 600;} 
+#cta-all-especialidades:hover{background-color:#4e606e;}
 
 #list-especialidades{width: 100%; height: auto; position: relative; float: left; margin-top: 10px; padding: 0px 20px; margin-top: 20px;}
 
@@ -810,8 +863,8 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
 #convenios-mb p{width: 100%; height: auto; position: relative; float: left; padding: 0px 20px; font-size: 16px; margin-left: 0px; margin-top: 0px;}
 
 #cta-convenios{width: 100%; height: auto; position: relative; float: left; margin-top: 20px;}
-#cta-convenios-int{width: 280px; height: auto; position: relative; margin: auto; padding: 12px 0px; background-color:#5b4f74; color: #fff; text-align: center; font-size: 18px; border-radius: 30px; cursor: pointer;}
-#cta-convenios-int:hover{background-color: #82759e;}
+#cta-convenios-int{width: 280px; height: auto; position: relative; margin: auto; padding: 12px 0px; background-color:#6a7e8e; color: #fff; text-align: center; font-size: 18px; border-radius: 30px; cursor: pointer;}
+#cta-convenios-int:hover{background-color: #4e606e;}
 
 
 /*Por dentro do ICTCor*/
@@ -842,25 +895,25 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
 
 #cta-como-chegar-mb{width: 100%; height: auto; position: relative; float: left; margin-top: 20px;}
 
-#cta-como-chegart-int-mb { width: 180px; height: auto; position: relative; margin: auto; padding: 22px 0px; background-color: #5b4f74; border-radius: 30px; cursor: pointer; }
+#cta-como-chegart-int-mb { width: 180px; height: auto; position: relative; margin: auto; padding: 22px 0px; background-color: #6a7e8e; border-radius: 30px; cursor: pointer; }
 #icon-cta-como-chegar { width: 30px; height: 30px; position: relative; float: left; margin-left: 10px; margin-top: -14px; }
 #txt-cta-como-chegar{width: auto; height: auto; position: relative; float: left; margin-top: -11px; margin-left: 5px; color: #fff; font-size: 17px;}
 #cta-como-chegart-int-mb:hover{background-color:#786a96;}
 
 .sessao-rodape-mb{width: 100%; height: auto; position: relative; float: left; margin-top: 40px; border-top: 1px solid #dadada; padding-bottom: 0px;}
-.sessao-rodape-mb h3{width: 100%; height:auto; position: relative; margin-top: 30px; text-align: center; color: #ff344d; font-size: 20px; padding: 0px 20px; font-weight: 500;}
+.sessao-rodape-mb h3 { width: 100%; height: auto; position: relative; margin-top: 30px; text-align: center; color: #ff001f; font-size: 20px; padding: 0px 20px; font-weight: 500; }
 .sessao-rodape-mb p {width: 100%; height: auto; position: relative; float: left; margin-top: 18px !important; padding: 0px 20px; font-size: 17px !important; text-align: center;}
 .sessao-rodape-mb b{font-weight: 600; opacity: 1 !important;}
 
 .cta-phone-rodape-mb{width: 100%; height: auto; position: relative; float: left; margin-top: 0px; margin-left: 0px;}
 
-.cta-phone-rodape-int-mb { width: 180px; height: auto; position: relative; margin: auto; padding: 22px 0px; background-color: #ff2121; border-radius: 30px; cursor: pointer; z-index: 10;}
+.cta-phone-rodape-int-mb { width: 180px; height: auto; position: relative; margin: auto; padding: 22px 0px; background-color: #fff; border-radius: 30px; cursor: pointer; z-index: 10; }
 .icon-cta-phone-rodape-mb { width: 30px; height: 30px; position: relative; float: left; margin-left: 10px; margin-top: -14px; }
-.txt-cta-phone-rodape-mb {width: auto; height: auto; position: relative; float: left; margin-top: -11px; margin-left: 14px; color: #fff; font-size: 17px;}
-.cta-phone-rodape-int-mb:hover{background-color:#ff4545;}
+.txt-cta-phone-rodape-mb { width: auto; height: auto; position: relative; float: left; margin-top: -11px; margin-left: 14px; color: #ff0e0e; font-size: 17px; }
+.cta-phone-rodape-int-mb:hover{background-color:#ffe4e5;}
 
-#fim-rodape-mb{width: 100%; height: auto; position: relative; float: left; margin-top: 15px; padding: 20px 20px; background-color: #d60019;}
-#link-politicas-rodape-mb{width: auto; height: auto; position: relative; float:right; font-size: 17px; color: #fff; font-weight: 600; cursor: pointer;}
+#fim-rodape-mb{width: 100%; height: auto; position: relative; float: left; margin-top: 15px; padding: 20px 20px; }
+#link-politicas-rodape-mb{width: auto; height: auto; position: relative; float:right; font-size: 17px;  font-weight: 300; cursor: pointer;}
 .item-sm-rd-mb{width: 35px; height: 35px; position: relative; float: left; margin-top: -8px; margin-right: 10px; cursor: pointer;}
 
 
@@ -901,7 +954,8 @@ box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06);
 
 #toolbar-card-exames-mobile{width: 100%; height: auto; position: relative; margin-top: 30px; padding: 0px 30px;}
 #name-procedimento-card-mobile { width: 80%; height: auto; position: relative; float: left; margin-top: 10px; font-size: 24px; color: #4b3d6c; font-weight: 600; line-height: 1; }
-#close-card-exames-mobile { width: 50px; height: 50px; position: absolute; top: 5px; right: 30px; background-color: #f41a1a; border-radius: 50%; cursor: pointer;}
+#close-card-exames-mobile { width: 50px; height: 50px; position: absolute; bottom: 24px; right: 30px; background-color: #f41a1a; border-radius: 50%; cursor: pointer; }
+  
 #icon-close-card-exames-mobile {width:20px; height:20px; position: absolute; top: 50%; left: 50%; margin-top: -10px; margin-left: -10px; background: url(../img/close.png); background-size:20px;}
 #close-card-exames-mobile:hover{background-color:#db1b1b;}
 
@@ -928,23 +982,25 @@ box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06);
 
 /* Inicio página de exames e procedimentos */
 #header-pagina-procedimentos{width: 100%; height: 340px; position: relative; float: left; background-color: #fff; overflow: hidden;}
+#view-header-pg-procedimentos { width: 100%; height: 100%; position: relative; margin: auto; }
 .conteudo-header-pg-procedimentos { width: 60%; height: 100%; position: relative; float: left; padding: 0px 0px 0px 20px; z-index: 15;}
 .conteudo-header-pg-procedimentos h1 { width: 100%; height: auto; position: relative; float: left; margin-top: 134px; font-size: 25px; color: #3f3d56; }
 .conteudo-header-pg-procedimentos p { width: 100%; height: auto; position: relative; margin-top: -20px; float: left; font-size: 16px; color: #353948; }
 
 .imagem-header-pg-procedimentos {width: 40%; height: 100%; position: relative; float: left;}
-#circle-bg-header-procedimentos { width: 320px; height: 320px; position: absolute; bottom: -140px; right: -142px; background-color: #83d9e9; border-radius: 50%; }
+#circle-bg-header-procedimentos { width: 320px; height: 320px; position: absolute; bottom: -140px; right: -142px; background-color: #ededed; border-radius: 50%; }
 #dr-header-procedimentos { width: 170px; height: 245px; position: absolute; bottom: 0px; right: -31px; background: url(../img/dr-header.png); background-size: 170px; z-index: 10; }
 
 #div-pg-procedimentos { width: 100%; height: auto; position: relative; float: left; background-color: #fff; padding: 0px 0px 60px 0px;  border-radius: 40px 40px 0px 0px; z-index: 90; margin-top: -50px;
 -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); -o-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); -ms-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06);
 }
 
-#view-pg-procedimentos{width: 100%; height: auto; position: relative; float: left; margin-top: 30px; padding: 0px 20px;}
+#view-pg-procedimentos { width: 100%; height: auto; position: relative; float: left; margin-top: 30px; padding: 0px 20px; margin-left: 0px; }
 
 /* item procedimentos pg */
 #div-pg-procedimentos { width: 100%; height: auto; position: relative; float: left; background-color: #fff; padding: 0px 0px 39px 0px; border-radius: 40px 40px 0px 0px; z-index: 90; margin-top: -50px; -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); -o-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); -ms-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); }
-.item-procedimento-card-mb-ds { width: 100%; height: 52px; position: relative; float: left; margin-bottom: 10px; padding: 10px 10px; border: 1px solid #dadada; border-radius: 50px; cursor: pointer; }
+.click-card-exames {width: 100%; height: 100%; position: absolute; z-index: 100;}
+.item-procedimento-card-mb-ds { width: 100%; height: 52px; position: relative; float: left; margin-bottom: 10px; padding: 10px 10px; border: 1px solid #dadada; border-radius: 50px; cursor: pointer; margin-left: 0px; }
 .item-procedimento-card-mb-ds p { width: 81%; height: auto; position: relative; float: left; margin-left: 6px; margin-top: 5px; font-size: 16px; color: #313131; }
 .icon-item-procedimento-card-mb-ds { width: 30px; height: 30px; position: relative; float: right; border-radius: 50%; background-color: #e51f36; }
 .icon-item-procedimento-card-mb-ds-int { width: 20px; height: 20px; position: absolute; top: 50%; left: 50%; margin-left: -10px; margin-top: -11px; }
@@ -994,8 +1050,8 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
 
 .item-menu-mobile:hover .icon-menu-mobile{background-color: #574e6b;}
 
-.m-mobile-atv{background-color: #564a6e; color: #fff;}
-.icon-menu-mobile-atv{background-color: #9689b0;}
+.m-mobile-atv{background-color: #db0404; color: #fff;}
+.icon-menu-mobile-atv{background-color: #b90000;}
 
 .menu-mobile-faq { width: 100%; height: auto; position: relative; float: left; border-radius: 10px; padding: 17px 20px; background-color: #def5ff; color: #7a858f; font-weight: 500; font-size: 13px; }
 .menu-mobile-faq:hover{background-color: #5cceff; color: #fff;}
@@ -1045,8 +1101,8 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
 #view-call-form-home-mb p { width: 100%; height: auto; position: relative; float: left; margin-top: -9px; font-size: 18px; text-align: center; opacity: 0.8;}
 
 .cta-mb{width: 100%; height: auto; position: relative; float: left; margin-top: 5px; }
-.cta-mb-int-fale-conosco{width: 200px; height: auto; position: relative; margin: auto; padding: 12px 0px; background-color:#5b4f74; font-size: 18px; color: #fff; text-align: center; border-radius:30px; cursor: pointer;}
-.cta-mb-int-fale-conosco:hover{background-color:#7b6c9a;}
+.cta-mb-int-fale-conosco{width: 200px; height: auto; position: relative; margin: auto; padding: 12px 0px; background-color:#6a7e8e; font-size: 18px; color: #fff; text-align: center; border-radius:30px; cursor: pointer;}
+.cta-mb-int-fale-conosco:hover{background-color:#4e606e;}
 
 
 /*Procedimentos e exames*/
@@ -1069,8 +1125,8 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
 #especialidades-mb{width: 100%; height: auto; position: relative; float: left; background-color: #fff;}
 #especialidades-mb h3 { width: auto; height: auto; position: relative; float: left; margin-top: 40px; font-size: 20px; padding: 0px 20px; }
 
-#cta-all-especialidades { width: auto; height: auto; position: absolute; right: 20px; top: 45px; padding: 10px 20px; font-size: 13px; color: #fff; background-color: #5b4f74; border-radius: 30px; cursor: pointer; font-weight: 600; }
-#cta-all-especialidades:hover{background-color:#7b6c9a;}
+#cta-all-especialidades { width: auto; height: auto; position: absolute; right: 20px; top: 45px; padding: 10px 20px; font-size: 13px; color: #fff; background-color: #6a7e8e; border-radius: 30px; cursor: pointer; font-weight: 600; }
+#cta-all-especialidades:hover{background-color:#4e606e;}
 
 #list-especialidades { width: 100%; height: auto; position: relative; float: left; margin-top: 10px; padding: 0px 20px; margin-top: 20px; }
 
@@ -1136,8 +1192,8 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
 #convenios-mb p{width: 100%; height: auto; position: relative; float: left; padding: 0px 20px; font-size: 16px; margin-left: 0px; margin-top: 0px;}
 
 #cta-convenios{width: 100%; height: auto; position: relative; float: left; margin-top: 20px;}
-#cta-convenios-int{width: 280px; height: auto; position: relative; margin: auto; padding: 12px 0px; background-color:#5b4f74; color: #fff; text-align: center; font-size: 18px; border-radius: 30px; cursor: pointer;}
-#cta-convenios-int:hover{background-color: #82759e;}
+#cta-convenios-int{width: 280px; height: auto; position: relative; margin: auto; padding: 12px 0px; background-color:#6a7e8e; color: #fff; text-align: center; font-size: 18px; border-radius: 30px; cursor: pointer;}
+#cta-convenios-int:hover{background-color: #4e606e;}
 
 
 /*Por dentro do ICTCor*/
@@ -1168,7 +1224,7 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
 
 #cta-como-chegar-mb{width: 100%; height: auto; position: relative; float: left; margin-top: 20px;}
 
-#cta-como-chegart-int-mb { width: 180px; height: auto; position: relative; margin: auto; padding: 22px 0px; background-color: #5b4f74; border-radius: 30px; cursor: pointer; }
+#cta-como-chegart-int-mb { width: 180px; height: auto; position: relative; margin: auto; padding: 22px 0px; background-color: #6a7e8e; border-radius: 30px; cursor: pointer; }
 #icon-cta-como-chegar { width: 30px; height: 30px; position: relative; float: left; margin-left: 10px; margin-top: -14px; }
 #txt-cta-como-chegar{width: auto; height: auto; position: relative; float: left; margin-top: -11px; margin-left: 5px; color: #fff; font-size: 17px;}
 #cta-como-chegart-int-mb:hover{background-color:#786a96;}
@@ -1180,13 +1236,13 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
 
 .cta-phone-rodape-mb{width: 100%; height: auto; position: relative; float: left; margin-top: 0px; margin-left: 0px;}
 
-.cta-phone-rodape-int-mb { width: 180px; height: auto; position: relative; margin: auto; padding: 22px 0px; background-color: #ff2121; border-radius: 30px; cursor: pointer; z-index: 10;}
+.cta-phone-rodape-int-mb { width: 180px; height: auto; position: relative; margin: auto; padding: 22px 0px; background-color: #fff; border-radius: 30px; cursor: pointer; z-index: 10; }
 .icon-cta-phone-rodape-mb { width: 30px; height: 30px; position: relative; float: left; margin-left: 10px; margin-top: -14px; }
-.txt-cta-phone-rodape-mb {width: auto; height: auto; position: relative; float: left; margin-top: -11px; margin-left: 14px; color: #fff; font-size: 17px;}
-.cta-phone-rodape-int-mb:hover{background-color:#ff4545;}
+.txt-cta-phone-rodape-mb { width: auto; height: auto; position: relative; float: left; margin-top: -11px; margin-left: 14px; color: #ff0e0e; font-size: 17px; }
+.cta-phone-rodape-int-mb:hover{background-color:#ffe4e5;}
 
-#fim-rodape-mb{width: 100%; height: auto; position: relative; float: left; margin-top: 15px; padding: 20px 20px; background-color: #d60019;}
-#link-politicas-rodape-mb { width: auto; height: auto; position: relative; float: right; font-size: 15px; color: #fff; font-weight: 600; cursor: pointer; margin-top: 2px; }
+#fim-rodape-mb{width: 100%; height: auto; position: relative; float: left; margin-top: 15px; padding: 20px 20px; }
+#link-politicas-rodape-mb { width: auto; height: auto; position: relative; float: right; font-size: 15px; font-weight: 300; cursor: pointer; margin-top: 2px; }
 .item-sm-rd-mb { width: 30px; height: 30px; position: relative; float: left; margin-top: -3px; margin-right: 10px; cursor: pointer; }
 
 /*Jenales*/
@@ -1221,11 +1277,11 @@ box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06);
 
 #toolbar-card-exames-mobile{width: 100%; height: auto; position: relative; margin-top: 30px; padding: 0px 30px;}
 #name-procedimento-card-mobile { width: 80%; height: auto; position: relative; float: left; margin-top: 10px; font-size: 20px; color: #4b3d6c; font-weight: 600; line-height: 1; }
-#close-card-exames-mobile { width: 40px; height: 40px; position: absolute; top: 7px; right: 30px; background-color: #f41a1a; border-radius: 50%; cursor: pointer; }
+#close-card-exames-mobile { width: 40px; height: 40px; position: absolute; bottom: 30px; right: 30px; background-color: #f41a1a; border-radius: 50%; cursor: pointer; }
 #icon-close-card-exames-mobile {width:20px; height:20px; position: absolute; top: 50%; left: 50%; margin-top: -10px; margin-left: -10px; background: url(../img/close.png); background-size:20px;}
 #close-card-exames-mobile:hover{background-color:#db1b1b;}
 
-#sobre-card-exames-mobile { width: 100%; height: auto; position: relative; float: left; margin-top: 19px; font-size: 15px; color: #566174; padding: 0px 30px;}
+#sobre-card-exames-mobile { width: 100%; height: auto; position: relative; float: left; margin-top: 19px; font-size: 14px; color: #566174; padding: 0px 30px; }
 #cta-card-exames-mobile {width: 100%; height: auto; position: absolute; bottom: 0px;}
 
 #cta-int-card-exames { width: 144px; height: auto; position: relative; float: left; margin-left: 30px; margin-bottom: 25px; padding: 10px 0px; text-align: center; color: #fff; font-size: 18px; background-color: #49adff; border-radius: 35px; cursor: pointer;}
@@ -1243,6 +1299,36 @@ box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06);
 #close-depoimento-card-aberto {width: 50px; height: 50px; position: absolute; bottom: 20px; left: 50%; margin-left: -25px; background-color: #f41a1a; border-radius: 100%; cursor: pointer;}
 #icon-close-depoimento-card-aberto{width:25px; height:25px; position: absolute; left: 50%; top: 50%; margin-left: -12.5px; margin-top: -12.5px; background: url(../img/close.png); background-size:25px;}
 #close-depoimento-card-aberto:hover{background-color:#db1b1b;}
+
+
+/* Inicio página de exames e procedimentos */
+#header-pagina-procedimentos{width: 100%; height: 340px; position: relative; float: left; background-color: #fff; overflow: hidden;}
+#view-header-pg-procedimentos { width: 100%; height: 100%; position: relative; margin: auto; }
+.conteudo-header-pg-procedimentos { width: 60%; height: 100%; position: relative; float: left; padding: 0px 0px 0px 20px; z-index: 15;}
+.conteudo-header-pg-procedimentos h1 { width: 100%; height: auto; position: relative; float: left; margin-top: 134px; font-size: 25px; color: #3f3d56; }
+.conteudo-header-pg-procedimentos p { width: 100%; height: auto; position: relative; margin-top: -20px; float: left; font-size: 16px; color: #353948; }
+
+.imagem-header-pg-procedimentos {width: 40%; height: 100%; position: relative; float: left;}
+#circle-bg-header-procedimentos { width: 320px; height: 320px; position: absolute; bottom: -140px; right: -142px; background-color: #ededed; border-radius: 50%; }
+#dr-header-procedimentos { width: 170px; height: 245px; position: absolute; bottom: 0px; right: -31px; background: url(../img/dr-header.png); background-size: 170px; z-index: 10; }
+
+#div-pg-procedimentos { width: 100%; height: auto; position: relative; float: left; background-color: #fff; padding: 0px 0px 60px 0px;  border-radius: 40px 40px 0px 0px; z-index: 90; margin-top: -50px;
+-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); -o-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); -ms-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06);
+}
+
+#view-pg-procedimentos { width: 100%; height: auto; position: relative; float: left; margin-top: 30px; padding: 0px 20px; margin-left: 0px; }
+
+/* item procedimentos pg */
+#div-pg-procedimentos { width: 100%; height: auto; position: relative; float: left; background-color: #fff; padding: 0px 0px 39px 0px; border-radius: 40px 40px 0px 0px; z-index: 90; margin-top: -50px; -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); -o-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); -ms-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); }
+.item-procedimento-card-mb-ds { width: 100%; height: 52px; position: relative; float: left; margin-bottom: 10px; padding: 10px 10px; border: 1px solid #dadada; border-radius: 50px; cursor: pointer; margin-left: 0px; }
+.click-card-exames {width: 100%; height: 100%; position: absolute; z-index: 100;}
+.item-procedimento-card-mb-ds p { width: 81%; height: auto; position: relative; float: left; margin-left: 6px; margin-top: 5px; font-size: 16px; color: #313131; }
+.icon-item-procedimento-card-mb-ds { width: 30px; height: 30px; position: relative; float: right; border-radius: 50%; background-color: #e51f36; }
+.icon-item-procedimento-card-mb-ds-int { width: 20px; height: 20px; position: absolute; top: 50%; left: 50%; margin-left: -10px; margin-top: -11px; }
+.item-procedimento-card-mb-ds:hover{background-color:#ffe1e4;  border: 1px solid #ffc6cc;}
+
+.estrutura-mb-fix{ width: 100%; height: 606px; position: relative; float: left; margin-top: -230px !important; }
+
 
 
 
