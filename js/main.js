@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-
+  
 $('#btn-menu-mobile, .btn-menu-tablet').click(function(){
    
    openMenu();
@@ -32,6 +32,10 @@ $('#mask').click(function(){
 
   closeWindowPhone();
   closeMenu();
+  closeExames();
+  fecharDepoimento();
+
+});
 
 });
 
@@ -163,317 +167,82 @@ function closeMask(){
 
 }
 
-  
-  // Banner desktop
-    var mySwiper = new Swiper('.swiper-banner-home-desktop', {
-    direction: 'horizontal',
-    loop: true,
-    speed: 400,
-    autoHeight: true,
-    autoplay: {
-      delay: 5000,
-    },
-    updateOnWindowResize: true,
-    navigation: {
-      nextEl: '.controle-sb-home-d',
-      prevEl: '.controle-sb-home-e',
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-    },
-  });
 
-
-
-   // Banner mobile
-  var mySwiper = new Swiper('.swiper-banner-home-mobile', {
-    direction: 'horizontal',
-    loop: true,
-    speed: 1000,
-    autoHeight: true,
-    autoplay: {
-      delay: 5000,
-    },
-    updateOnWindowResize: true,
-    navigation: {
-      prevEl: '.proximo-cta',
-      nextEl: '.anterior-cta',
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-    },
-  });
-
-
-
-
-
-   // Slides exames desktop
-  var mySwiper = new Swiper('.swiper-card-exames-ds', {
- freeMode: {
-            enabled: true,
-            sticky: false,
-            minimumVelocity: 0.1,
-            speed: 1000,
-            momentum: true,
-            momentumVelocityRatio: 5,
-
-        },
-         navigation: {
-      prevEl: '.left-exames',
-      nextEl: '.right-exames',
-        },
-
-        breakpoints: {
-            50: {
-                slidesPerView: 1.2,
-                spaceBetween: 10,
-            },
-
-            350: {
-                slidesPerView: 1.45,
-                spaceBetween: 0,
-            },
-
-            500: {
-                slidesPerView: 1.8,
-                spaceBetween: 10,
-            },
-            700: {
-                slidesPerView: 1.8,
-                spaceBetween: 10,
-            },
-            1000: {
-                slidesPerView: 2.5,
-                spaceBetween: 10,
-            },
-            1200: {
-                slidesPerView: 3.1,
-                spaceBetween: 10,
-            },
-
-            1480: {
-                slidesPerView: 3.6,
-                spaceBetween: 10,
-            },
-            1600: {
-                slidesPerView: 4,
-                spaceBetween: 100,
-            },
-            1900: {
-                slidesPerView: 5,
-                spaceBetween:100,
-            }
-
-        }
-    });
-
-  
-
-  // Swiper depoimentos desktop
-  var mySwiper = new Swiper('#view-swiper-depoimentos-ds', {
-    direction: 'horizontal',
-    loop: true,
-    speed: 800,
-    autoHeight: true,
-    slidesPerView: 3,
-    spaceBetween: 10,
-    autoplay: {
-      delay: 5000,
-    },
-    updateOnWindowResize: true,
-    navigation: {
-      prevEl: '.left-depoimentos',
-      nextEl: '.right-depoimentos',
-    },
-
-
-    breakpoints: {
-      50: {
-          slidesPerView: 1.2,
-          spaceBetween: 10,
-      },
-
-      350: {
-          slidesPerView: 1.45,
-          spaceBetween: 0,
-      },
-
-      500: {
-          slidesPerView: 2.4,
-          spaceBetween: 10,
-      },
-      700: {
-          slidesPerView: 1.9,
-          spaceBetween: 10,
-      },
-      1000: {
-          slidesPerView: 1.93,
-          spaceBetween: 10,
-      },
-      1200: {
-          slidesPerView: 1.93,
-          spaceBetween: 10,
-      },
-
-      1480: {
-          slidesPerView: 3,
-          spaceBetween: 10,
-      },
-      1600: {
-          slidesPerView: 3,
-          spaceBetween: 10,
-      },
-      1900: {
-          slidesPerView: 3,
-          spaceBetween:10,
-      }
-
-  }
+// Abre o card de exames
+function openExames(exame){
    
+  // explode o objeto em variaveis
+
+  let { exameNome, sobre, link } = exame;
+  document.getElementById('name-procedimento-card-mobile').innerHTML = exameNome;
+  document.getElementById('sobre-card-exames-mobile').innerHTML = sobre;
+  document.getElementById('link-card-exames').setAttribute('href', link);
+   
+  $("#div-card-exames-mobile")
+  .velocity({
+    bottom: "20px",
+  }, {
+    duration: 500,
+    easing: [5, 5],
+    delay:1,
+});
+
+openMask();
+
+ }
+
+
+ function closeExames(){
+   
+  $("#div-card-exames-mobile")
+  .velocity({
+    bottom: "-150%",
+  }, {
+    duration: 300,
+    easing: [5, 5],
+    delay:1,
+});
+
+closeMask();
+
+ }
+
+
+ function lerDepoimento(depoimento){
+
+    let {nomeDepoimento, fotoDepoimento, sobreDepoimento} = depoimento;
+
+     $("#div-card-depoimentos-aberto")
+       .velocity({
+         bottom: "20px",
+       }, {
+         duration: 500,
+         easing: [5, 5],
+         delay: 1,
+       });
+    
+    document.getElementById('nome-depoimento-card').innerHTML = nomeDepoimento;
+    document.getElementById('sobre-deppimento-card-aberto').innerHTML = sobreDepoimento;
+    document.getElementById('foto-depoimento').setAttribute('src', fotoDepoimento);
+
+     openMask();
+ }
+
+ function fecharDepoimento(){
+
+  $("#div-card-depoimentos-aberto")
+  .velocity({
+    bottom: "-250%",
+  }, {
+    duration: 600,
+    easing: [5, 5],
+    delay: 1,
   });
-
-
-
-  var mySwiper = new Swiper('.swiper-card-exames-mobile', {
-        freeMode: {
-            enabled: true,
-            sticky: false,
-            minimumVelocity: 0.1,
-            momentum: true,
-            momentumVelocityRatio: 5,
-
-        },
-
-        breakpoints: {
-            50: {
-                slidesPerView: 1.2,
-                spaceBetween: 10,
-            },
-
-            350: {
-                slidesPerView: 1.45,
-                spaceBetween: 0,
-            },
-
-            500: {
-                slidesPerView: 2.4,
-                spaceBetween: 10,
-            },
-         
-
-        }
-    });
-
-
-    var mySwiper = new Swiper('#testimonials-swiper', {
-        freeMode: {
-            enabled: true,
-            sticky: false,
-            minimumVelocity: 0.1,
-            momentum: true,
-            momentumVelocityRatio: 5,
-        },
-
-        breakpoints: {
-            50: {
-                slidesPerView: 1.2,
-                spaceBetween: 10,
-            },
-
-            350: {
-                slidesPerView: 1.50,
-                spaceBetween: 30,
-            },
-
-
-            500: {
-              slidesPerView: 2.2,
-              spaceBetween: 10,
-          },
-
-            700: {
-              slidesPerView: 2.6,
-              spaceBetween: 10,
-          },
-
-        }
-    });
-
-
-
-
-  var mySwiper = new Swiper('#swiper-cards-corpo-clinico', {
-        freeMode: {
-            enabled: true,
-            sticky: false,
-            minimumVelocity: 0.1,
-            momentum: true,
-            momentumVelocityRatio: 5,
-        },
-
-        breakpoints: {
-            50: {
-                slidesPerView: 1.2,
-                spaceBetween: 10,
-            },
-
-            350: {
-                slidesPerView: 1.50,
-                spaceBetween: 15,
-            },
-
-            500: {
-              slidesPerView: 2.2,
-              spaceBetween: 10,
-          },
-
-            700: {
-              slidesPerView: 2.6,
-              spaceBetween: 10,
-          },
-
-        }
-    });
   
-   
-     var mySwiper = new Swiper('#faixa-videos-mb', {
-        freeMode: {
-            enabled: true,
-            sticky: false,
-            minimumVelocity: 0.1,
-            momentum: true,
-            momentumVelocityRatio: 5,
-        },
+  closeMask();
 
-        breakpoints: {
-            50: {
-                slidesPerView: 1.2,
-                spaceBetween: 10,
-            },
+ }
 
-            350: {
-                slidesPerView: 1.50,
-                spaceBetween: 15,
-            },
-
-            500: {
-              slidesPerView: 2.2,
-              spaceBetween: 10,
-          },
-
-            700: {
-              slidesPerView: 2.6,
-              spaceBetween: 10,
-          },
-
-        }
-    });
-
-
-   
      // Troca o tamanho da Navbar
     window.onscroll = function() {
       scrollFunction();
@@ -491,4 +260,3 @@ function closeMask(){
       };  
 
 
-});

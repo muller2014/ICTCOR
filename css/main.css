@@ -99,7 +99,7 @@ textarea {
 
 
 /*Jenales*/
-#mask{width: 100%; height: 0%; position: fixed; z-index: 9999; background-color:#fff; opacity: 0;}
+#mask{width: 100%; height: 0%; position: fixed; z-index: 9999; background-color:#393442 !important; opacity: 0;}
 
 
 
@@ -385,10 +385,22 @@ overflow: hidden;}
 .item-sm-rd-mb{width: 35px; height: 35px; position: relative; float: left; margin-top: -8px; margin-right: 10px; cursor: pointer;}
 
 
+/* Card aberto depoimentos */ 
+#div-card-depoimentos-aberto { width: 600px; height: 370px; position: fixed; bottom: -250%; left: 50%; margin-left: -300px; z-index: 99999; background-color: #fff; border-radius: 40px; -webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.07); -moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.07); -ms-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.07); -o-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.07); box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.07); }
+  
+#foto-card-depoimentos-aberto { width: 140px; height: 140px; position: absolute; left: 50%; top: -60px; margin-left: -70px; border-radius: 100%; background-color: #fff; overflow: hidden; border: 10px solid #fff; }
+#foto-card-depoimentos-aberto-int {width: 150px; height: 150px; position: absolute; left: 50%; top: 50%; margin-top: -75px; margin-left: -75px;}
+#nome-depoimento-card { width: 100%; height: auto; position: relative; float: left; margin-top: 90px; font-size: 26px; text-align: center; color: #4e4b55; padding: 0px 30px; font-weight: 600; }
+#sobre-deppimento-card-aberto {width: 100%;  height: 150px; position: relative; float: left; margin-top: 10px; font-size: 16px; color: #484550; text-align: center; padding: 0px 20px; overflow: scroll;}
+#sobre-deppimento-card-aberto p{width: 100%; height: auto; position: relative; float: left; margin-bottom: 10px; font-size: 14px; color: #000; text-align: center; padding: 0px 70px;}
+
+#close-depoimento-card-aberto {width: 50px; height: 50px; position: absolute; bottom: 20px; left: 50%; margin-left: -25px; background-color: #f41a1a; border-radius: 100%; cursor: pointer;}
+#icon-close-depoimento-card-aberto{width:25px; height:25px; position: absolute; left: 50%; top: 50%; margin-left: -12.5px; margin-top: -12.5px; background: url(../img/close.png); background-size:25px;}
+#close-depoimento-card-aberto:hover{background-color:#db1b1b;}
+
+
 
 /*Telas menores*/
-
-/*Inicio smartphones*/
 @media only screen  
 and (min-width:1100px) 
 and (max-width:1500px) {
@@ -874,6 +886,42 @@ box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06);
 .item-phone-window{width: auto; height: auto; position: relative; float: left; margin-right: 10px; padding: 10px 10px; background-color: #ddf8ff; color: #414141; border-radius: 10px; cursor: pointer;}
 .item-phone-window:hover{background-color:#aceeff;}
 
+/* Card aberto exames mobile */
+#div-card-exames-mobile{width: 95%; height: 370px; position: fixed; left: 2.5%; bottom: -150%; background-color: #fff; z-index: 99999; border-radius: 40px;
+  -webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.07);
+  -moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.07);
+  -ms-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.07);
+  -o-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.07);
+  box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.07);
+}
+
+#toolbar-card-exames-mobile{width: 100%; height: auto; position: relative; margin-top: 30px; padding: 0px 30px;}
+#name-procedimento-card-mobile { width: 80%; height: auto; position: relative; float: left; margin-top: 10px; font-size: 24px; color: #4b3d6c; font-weight: 600; line-height: 1; }
+#close-card-exames-mobile { width: 50px; height: 50px; position: absolute; top: 5px; right: 30px; background-color: #f41a1a; border-radius: 50%; cursor: pointer;}
+#icon-close-card-exames-mobile {width:20px; height:20px; position: absolute; top: 50%; left: 50%; margin-top: -10px; margin-left: -10px; background: url(../img/close.png); background-size:20px;}
+#close-card-exames-mobile:hover{background-color:#db1b1b;}
+
+#sobre-card-exames-mobile { width: 100%; height: auto; position: relative; float: left; margin-top: 19px; font-size: 15px; color: #566174; padding: 0px 30px;}
+#cta-card-exames-mobile {width: 100%; height: auto; position: absolute; bottom: 0px;}
+
+#cta-int-card-exames { width: 144px; height: auto; position: relative; float: left; margin-left: 30px; margin-bottom: 25px; padding: 10px 0px; text-align: center; color: #fff; font-size: 18px; background-color: #49adff; border-radius: 35px; cursor: pointer;}
+#cta-int-card-exames:hover{background-color:#298cde;}
+
+
+/* Card aberto depoimentos */ 
+#div-card-depoimentos-aberto{width:95%; height: 350px; position: fixed; bottom: -250%; left: 2.5%; margin-left: 0px; z-index: 99999; background-color: #fff; border-radius: 40px; -webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.07); -moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.07); -ms-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.07); -o-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.07); box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.07);} 
+#foto-card-depoimentos-aberto { width: 140px; height: 140px; position: absolute; left: 50%; top: -60px; margin-left: -70px; border-radius: 100%; background-color: #fff; overflow: hidden; border: 10px solid #fff; }
+#foto-card-depoimentos-aberto-int {width: 150px; height: 150px; position: absolute; left: 50%; top: 50%; margin-top: -75px; margin-left: -75px;}
+#nome-depoimento-card { width: 100%; height: auto; position: relative; float: left; margin-top: 90px; font-size: 22px; text-align: center; color: #4e4b55; padding: 0px 30px; font-weight: 600; }
+#sobre-deppimento-card-aberto {width: 100%;  height: 155px; position: relative; float: left; margin-top: 0px; font-size: 14px; color: #484550; text-align: center; padding: 0px 20px 0px 20px; }
+#sobre-deppimento-card-aberto p { width: 100%; height: auto; position: relative; float: left; margin-bottom: 10px; font-size: 14px; color: #000; text-align: center; padding: 0px 0px; }
+
+
+#close-depoimento-card-aberto {width: 50px; height: 50px; position: absolute; bottom: 20px; left: 50%; margin-left: -25px; background-color: #f41a1a; border-radius: 100%; cursor: pointer;}
+#icon-close-depoimento-card-aberto{width:25px; height:25px; position: absolute; left: 50%; top: 50%; margin-left: -12.5px; margin-top: -12.5px; background: url(../img/close.png); background-size:25px;}
+#close-depoimento-card-aberto:hover{background-color:#db1b1b;}
+
+
 }
 
 /*Inicio smartphones*/
@@ -1127,13 +1175,42 @@ box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06);
 
 .s-window-call{width: 100%; height: auto; position: relative; float: left; border-bottom: 0.5px solid #e7e7e7; padding: 0px 20px;}
 .s-window-call:last-child{border-bottom: 0px solid #e7e7e7;}
-.s-window-call h3{width: 80%; height:auto; position: relative; float: left; margin-top: 25px; font-size: 18px; color: #ff4343; font-weight: 600;}
-.s-window-call p{width: 100%; height: auto; position: relative; float: left; font-size: 16px; margin-top: -8px; margin-bottom: 25px;}
+.s-window-call h3 { width: 80%; height: auto; position: relative; float: left; margin-top: 25px; font-size: 15px; color: #ff4343; font-weight: 600; }
+.s-window-call p { width: 100%; height: auto; position: relative; float: left; font-size: 14px; margin-top: -8px; margin-bottom: 25px; }
 .s-window-call b{font-weight: 500;}
 
 .phones-window{width: 100%; height: auto; position: relative; float: left; margin-top:0px; margin-bottom: 25px;}
-.item-phone-window{width: auto; height: auto; position: relative; float: left; margin-right: 10px; padding: 10px 10px; background-color: #ddf8ff; color: #414141; border-radius: 10px; cursor: pointer;}
+.item-phone-window { width: auto; height: auto; position: relative; float: left; margin-right: 2px; padding: 10px 10px; background-color: #ddf8ff; color: #414141; border-radius: 10px; cursor: pointer; font-size: 13px; }
 .item-phone-window:hover{background-color:#aceeff;}
+
+
+/* Card aberto exames mobile */
+#div-card-exames-mobile { width: 95%; height: 330px; position: fixed; left: 2.5%; bottom: -150%; background-color: #fff; z-index: 99999; border-radius: 30px; -webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.07); -moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.07); -ms-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.07); -o-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.07); box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.07); }
+
+#toolbar-card-exames-mobile{width: 100%; height: auto; position: relative; margin-top: 30px; padding: 0px 30px;}
+#name-procedimento-card-mobile { width: 80%; height: auto; position: relative; float: left; margin-top: 10px; font-size: 20px; color: #4b3d6c; font-weight: 600; line-height: 1; }
+#close-card-exames-mobile { width: 40px; height: 40px; position: absolute; top: 7px; right: 30px; background-color: #f41a1a; border-radius: 50%; cursor: pointer; }
+#icon-close-card-exames-mobile {width:20px; height:20px; position: absolute; top: 50%; left: 50%; margin-top: -10px; margin-left: -10px; background: url(../img/close.png); background-size:20px;}
+#close-card-exames-mobile:hover{background-color:#db1b1b;}
+
+#sobre-card-exames-mobile { width: 100%; height: auto; position: relative; float: left; margin-top: 19px; font-size: 15px; color: #566174; padding: 0px 30px;}
+#cta-card-exames-mobile {width: 100%; height: auto; position: absolute; bottom: 0px;}
+
+#cta-int-card-exames { width: 144px; height: auto; position: relative; float: left; margin-left: 30px; margin-bottom: 25px; padding: 10px 0px; text-align: center; color: #fff; font-size: 18px; background-color: #49adff; border-radius: 35px; cursor: pointer;}
+#cta-int-card-exames:hover{background-color:#298cde;}
+
+
+/* Card aberto depoimentos */ 
+#div-card-depoimentos-aberto{width:95%; height: 370px; position: fixed; bottom: -250%; margin-left: 0px; left: 2.5%; z-index: 99999; background-color: #fff; border-radius: 40px; -webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.07); -moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.07); -ms-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.07); -o-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.07); box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.07);} 
+#foto-card-depoimentos-aberto { width: 140px; height: 140px; position: absolute; left: 50%; top: -60px; margin-left: -70px; border-radius: 100%; background-color: #fff; overflow: hidden; border: 10px solid #fff; }
+#foto-card-depoimentos-aberto-int {width: 150px; height: 150px; position: absolute; left: 50%; top: 50%; margin-top: -75px; margin-left: -75px;}
+#nome-depoimento-card { width: 100%; height: auto; position: relative; float: left; margin-top: 90px; font-size: 22px; text-align: center; color: #4e4b55; padding: 0px 30px; font-weight: 600; }
+#sobre-deppimento-card-aberto { width: 100%; height: 160px; position: relative; float: left; margin-top: 10px; font-size: 14px; color: #484550; text-align: center; padding: 0px 20px; }
+#sobre-deppimento-card-aberto p { width: 100%; height: auto; position: relative; float: left; margin-bottom: 10px; font-size: 14px; color: #000; text-align: center; padding: 0px 0px; }
+
+#close-depoimento-card-aberto {width: 50px; height: 50px; position: absolute; bottom: 20px; left: 50%; margin-left: -25px; background-color: #f41a1a; border-radius: 100%; cursor: pointer;}
+#icon-close-depoimento-card-aberto{width:25px; height:25px; position: absolute; left: 50%; top: 50%; margin-left: -12.5px; margin-top: -12.5px; background: url(../img/close.png); background-size:25px;}
+#close-depoimento-card-aberto:hover{background-color:#db1b1b;}
 
 
 
