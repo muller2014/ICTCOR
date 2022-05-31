@@ -126,48 +126,6 @@ function closeWindowPhone(){
 }
 
 
-function openMask(){
-
-     $("#mask")
-        .velocity({
-          height: "100%",
-        }, {
-          duration: 1,
-          easing: [5, 5],
-      });
-
-      $("#mask")
-        .velocity({
-          opacity:0.95,
-        }, {
-          duration: 600,
-          delay:2,
-      });   
-
-}
-
-function closeMask(){
-
-   $("#mask")
-      .velocity({
-        opacity:0,
-      }, {
-        duration: 280,
-    }); 
-
-
-  $("#mask")
-    .velocity({
-          height: "0%",
-        }, {
-          duration: 1,
-          easing: [5, 5],
-          delay:300,
-    });
-
-}
-
-
 // Abre o card de exames
 function openExames(exame){
    
@@ -260,3 +218,45 @@ closeMask();
       };  
 
 
+
+
+      function openMask(){
+
+        $("#mask")
+           .velocity({
+             height: "100%",
+           }, {
+             duration: 1,
+             easing: [5, 5],
+         });
+   
+         $("#mask")
+           .velocity({
+             opacity:0.95,
+           }, {
+             duration: 600,
+             delay:2,
+         });   
+   
+   }
+   
+   function closeMask(){
+   
+      $("#mask")
+         .velocity({
+           opacity:0,
+         }, {
+           duration: 280,
+       }); 
+   
+   
+     $("#mask")
+       .velocity({
+             height: "0%",
+           }, {
+             duration: 1,
+             easing: [5, 5],
+             delay:300,
+       });
+   
+   }

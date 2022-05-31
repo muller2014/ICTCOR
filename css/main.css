@@ -402,7 +402,7 @@ box-shadow: 0px -18px 72px -17px rgba(0,0,0,0.19);
 #header-pagina-procedimentos{width: 100%; height: 500px; position: relative; float: left; background-color: #fff; }
 .conteudo-header-pg-procedimentos{width: 60%; height: auto; position: relative; float: left; }
 .conteudo-header-pg-procedimentos h1{width: 100%; height: auto; position: relative; float: left; font-size: 20px; color:#3f3d56;}
-.conteudo-header-pg-procedimentosv p{width: 100%; height: auto; position: relative; float: left; font-size: 15px; color:#353948;}
+.conteudo-header-pg-procedimentos p{width: 100%; height: auto; position: relative; float: left; font-size: 15px; color:#353948;}
 
 /*Telas menores*/
 @media only screen  
@@ -927,10 +927,30 @@ box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06);
 
 
 /* Inicio página de exames e procedimentos */
-#header-pagina-procedimentos{width: 100%; height: 500px; position: relative; float: left; background-color: #fff; }
-.conteudo-header-pg-procedimentos{width: 60%; height: auto; position: relative; float: left; }
-.conteudo-header-pg-procedimentos h1{width: 100%; height: auto; position: relative; float: left; font-size: 20px; color:#3f3d56;}
-.conteudo-header-pg-procedimentosv p{width: 100%; height: auto; position: relative; float: left; font-size: 15px; color:#353948;}
+#header-pagina-procedimentos{width: 100%; height: 340px; position: relative; float: left; background-color: #fff; overflow: hidden;}
+.conteudo-header-pg-procedimentos { width: 60%; height: 100%; position: relative; float: left; padding: 0px 0px 0px 20px; z-index: 15;}
+.conteudo-header-pg-procedimentos h1 { width: 100%; height: auto; position: relative; float: left; margin-top: 134px; font-size: 25px; color: #3f3d56; }
+.conteudo-header-pg-procedimentos p { width: 100%; height: auto; position: relative; margin-top: -20px; float: left; font-size: 16px; color: #353948; }
+
+.imagem-header-pg-procedimentos {width: 40%; height: 100%; position: relative; float: left;}
+#circle-bg-header-procedimentos { width: 320px; height: 320px; position: absolute; bottom: -140px; right: -142px; background-color: #83d9e9; border-radius: 50%; }
+#dr-header-procedimentos { width: 170px; height: 245px; position: absolute; bottom: 0px; right: -31px; background: url(../img/dr-header.png); background-size: 170px; z-index: 10; }
+
+#div-pg-procedimentos { width: 100%; height: auto; position: relative; float: left; background-color: #fff; padding: 0px 0px 60px 0px;  border-radius: 40px 40px 0px 0px; z-index: 90; margin-top: -50px;
+-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); -o-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); -ms-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06);
+}
+
+#view-pg-procedimentos{width: 100%; height: auto; position: relative; float: left; margin-top: 30px; padding: 0px 20px;}
+
+/* item procedimentos pg */
+#div-pg-procedimentos { width: 100%; height: auto; position: relative; float: left; background-color: #fff; padding: 0px 0px 39px 0px; border-radius: 40px 40px 0px 0px; z-index: 90; margin-top: -50px; -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); -o-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); -ms-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06); }
+.item-procedimento-card-mb-ds { width: 100%; height: 52px; position: relative; float: left; margin-bottom: 10px; padding: 10px 10px; border: 1px solid #dadada; border-radius: 50px; cursor: pointer; }
+.item-procedimento-card-mb-ds p { width: 81%; height: auto; position: relative; float: left; margin-left: 6px; margin-top: 5px; font-size: 16px; color: #313131; }
+.icon-item-procedimento-card-mb-ds { width: 30px; height: 30px; position: relative; float: right; border-radius: 50%; background-color: #e51f36; }
+.icon-item-procedimento-card-mb-ds-int { width: 20px; height: 20px; position: absolute; top: 50%; left: 50%; margin-left: -10px; margin-top: -11px; }
+.item-procedimento-card-mb-ds:hover{background-color:#ffe1e4;  border: 1px solid #ffc6cc;}
+
+.estrutura-mb-fix{ width: 100%; height: 606px; position: relative; float: left; margin-top: -230px !important; }
 
 
 
