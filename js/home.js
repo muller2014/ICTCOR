@@ -273,7 +273,7 @@ var mySwiper = new Swiper('.swiper-banner-home-desktop', {
           spaceBetween: 10,
       },
       1900: {
-          slidesPerView: 4,
+          slidesPerView: 3,
           spaceBetween:10,
       }
 

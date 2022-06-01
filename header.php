@@ -79,7 +79,9 @@
       <div id="bg-menu-desktop"></div>
 
       <div id="logo-desktop">
+       <a href="index.php">
         <div id="logo-desktop-int"></div>
+       </a>
       </div>
 
       <div class="btn-menu-tablet"></div>
@@ -111,27 +113,33 @@
 
 
             <!-- Item de menu -->
+      <a href="especialidades.php">      
       <div class="desktop-menu-item fast-transition">
         <div class="ornamento-menu-desktop oranamento-m-e"></div>
         <div class="ornamento-menu-desktop oranamento-m-d"></div>
         <div class="desktop-menu-txt">Especialidades</div>
       </div>
+      </a>
 
 
             <!-- Item de menu -->
+      <a href="procedimentos.php">    
       <div class="desktop-menu-item fast-transition">
         <div class="ornamento-menu-desktop oranamento-m-e"></div>
         <div class="ornamento-menu-desktop oranamento-m-d"></div>
         <div class="desktop-menu-txt">Procedimentos</div>
       </div>
+      </a>  
 
 
       <!-- Item de menu -->
+      <a href="index.php">
       <div class="desktop-menu-item fast-transition menu-desktop-atv-item">
         <div class="ornamento-menu-desktop oranamento-m-e ornamento-menu-atv"></div>
         <div class="ornamento-menu-desktop oranamento-m-d ornamento-menu-atv"></div>
         <div class="desktop-menu-txt menu-txt-atv">Início</div>
       </div>
+      </a>
 
 
 
@@ -162,27 +170,33 @@
 
     <div id="menu-mobile-list-links">
       <h4>Menu</h4>
-
+      
+      <a href="index.php">
       <div class="item-menu-mobile m-mobile-atv">
         Início
         <div class="icon-menu-mobile icon-menu-mobile-atv">
           <div class="arrow-menu-mobile"></div>
         </div>
       </div>
-
+       </a>
+       
+       <a href="procedimentos.php">
        <div class="item-menu-mobile">
         Procedimentos
         <div class="icon-menu-mobile">
           <div class="arrow-menu-mobile"></div>
         </div>
       </div>
-
+       </a>
+        
+       <a href="especialidades.php"> 
        <div class="item-menu-mobile">
         Especialidades
         <div class="icon-menu-mobile">
           <div class="arrow-menu-mobile"></div>
         </div>
       </div>
+     </a>
 
        <div class="item-menu-mobile">
         Corpo Clínico
@@ -296,7 +310,9 @@
   </div>
   
   <div class="mobile" id="menu-mobile-topo">
-    <div id="logo-ictcor-menu-mobile"></div>
+   <a href="index.php">
+     <div id="logo-ictcor-menu-mobile"></div>
+  </a>  
     <div id="btn-menu-mobile">
       <div id="menu-icon-mobile"></div>
     </div>
