@@ -10,21 +10,20 @@ require_once('header.php');
       
 
         <div class="conteudo-header-pg-procedimentos">
-            <h1>Procedimentos <br><span class="span-title">e exames</span></h1>
+            <h1>Convênios <br><span class="span-title">que atendemos</span></h1>
             <p class="desktop">
-                Estamos prontos para te atender da melhor forma
-                confira os procedimentos e exames disponíveis              
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod labore et dolore magna aliqua.          
             </p>
             <p class="mobile">
-             Procedimentos e exames disponíveis em Brasília
+            Lorem, ipsum dolor sit amet consectetur
             </p>
             <div id="cta-header-pg-procedimentos" class="desktop">
-                <div id="cta-header-pg-procedimentos-int">Ver procedimentos e exames</div>
+                <div id="cta-header-pg-procedimentos-int">Ver convênios</div>
             </div>
         </div>
     
         <div class="imagem-header-pg-procedimentos">
-            <div id="dr-header-procedimentos"></div>
+            <div id="paciente-header-procedimentos"></div>
             <div id="circle-bg-header-procedimentos"> </div>
         </div>
 
@@ -39,228 +38,159 @@ require_once('header.php');
 <div id="div-pg-procedimentos">
   <div id="bg-dots-procedimentos" class="desktop"></div>
    <div id="view-pg-procedimentos">
-       
 
-       <!-- Item card procedimento -->
-       <div class="item-procedimento-card-mb-ds">
-        <div class="click-card-exames mobile" onclick="openExames(exame3)"></div>
-        <p class="truncate mobile">Tratamento Endovascular</p>
-        <p class="desktop">Tratamento Endovascular</p>
-        <div class="sobre-card-procedimento-card-mb-ds desktop">
-            A Cirurgia Endovascular é um procedimento cirúrgico minimamente invasivo e usado para o tratamento das doenças dos vasos sanguíneos.
-        </div>
-           <div class="icon-item-procedimento-card-mb-ds">
-               <div class="icon-item-procedimento-card-mb-ds-int">
-                   <img src="img/icon-card-ex.png" width="100%">
-               </div>
-           </div>
-           <div  class="cta-procedimento-card-mb-ds fast-transition desktop" >Siba mais</div>
-           <script>
-            const exame3 = {
-              exameNome:'Tratamento Endovascular',
-              sobre:' A Cirurgia Endovascular é um procedimento cirúrgico minimamente invasivo e usado para o tratamento das doenças dos vasos sanguíneos.',
-              link:'',
-            }
+   <div id="div-cards-box">
 
-          </script>
-       </div>
+   <div class="item-card-convenio">
+         <div class="logo-convenio-card">
+             <img src="img/convenios/allianz.jpg" width="100%" >
+         </div>
+         <div class="card-convenio-nome mobile">Allianz</div>
+    </div>
 
-          <!-- Item card procedimento -->
-          <div class="item-procedimento-card-mb-ds">
-            <div class="click-card-exames mobile" onclick="openExames(exame3)"></div>
-            <p class="truncate mobile">Tratamento Endovascular</p>
-            <p class="desktop">Tratamento Endovascular</p>
-            <div class="sobre-card-procedimento-card-mb-ds desktop">
-                A Cirurgia Endovascular é um procedimento cirúrgico minimamente invasivo e usado para o tratamento das doenças dos vasos sanguíneos.
-            </div>
-               <div class="icon-item-procedimento-card-mb-ds">
-                   <div class="icon-item-procedimento-card-mb-ds-int">
-                       <img src="img/icon-card-ex.png" width="100%">
-                   </div>
-               </div>
-               <div  class="cta-procedimento-card-mb-ds fast-transition desktop" >Siba mais</div>
-               <script>
-                const exame3 = {
-                  exameNome:'Tratamento Endovascular',
-                  sobre:' A Cirurgia Endovascular é um procedimento cirúrgico minimamente invasivo e usado para o tratamento das doenças dos vasos sanguíneos.',
-                  link:'',
-                }
+
+    <div class="item-card-convenio">
+         <div class="logo-convenio-card">
+             <img src="img/convenios/amil.jpg" width="100%" >
+         </div>
+         <div class="card-convenio-nome mobile">Amil</div>
+    </div>
+
+
+
+    <div class="item-card-convenio">
+         <div class="logo-convenio-card">
+             <img src="img/convenios/anchieta.jpg" width="100%" >
+         </div>
+         <div class="card-convenio-nome mobile">Anchieta</div>
+    </div>
+
+
+    <div class="item-card-convenio">
+         <div class="logo-convenio-card">
+             <img src="img/convenios/bcsaude.jpg" width="100%" >
+         </div>
+         <div class="card-convenio-nome mobile">Bcsaude</div>
+    </div>
+
+
+    <div class="item-card-convenio">
+         <div class="logo-convenio-card">
+             <img src="img/convenios/bradesco-saude.jpg" width="100%" >
+         </div>
+         <div class="card-convenio-nome mobile">Bradesco Saude</div>
+    </div>
+
+
+    <div class="item-card-convenio">
+         <div class="logo-convenio-card">
+             <img src="img/convenios/caesan.jpg" width="100%" >
+         </div>
+         <div class="card-convenio-nome mobile">Caesan</div>
+    </div>
+
+
+    <div class="item-card-convenio">
+         <div class="logo-convenio-card">
+             <img src="img/convenios/casembrapa.jpg" width="100%" >
+         </div>
+         <div class="card-convenio-nome mobile">Casembrapa</div>
+    </div>
+
+
+    <div class="item-card-convenio">
+         <div class="logo-convenio-card">
+             <img src="img/convenios/cassi.jpg" width="100%" >
+         </div>
+         <div class="card-convenio-nome mobile">Cassi</div>
+    </div>
+
+
+    <div class="item-card-convenio">
+         <div class="logo-convenio-card">
+             <img src="img/convenios/cbmf.jpg" width="100%" >
+         </div>
+         <div class="card-convenio-nome mobile">CBMF</div>
+    </div>
+
+
+    <div class="item-card-convenio">
+         <div class="logo-convenio-card">
+             <img src="img/convenios/conab.jpg" width="100%" >
+         </div>
+         <div class="card-convenio-nome mobile">Conab</div>
+    </div>
+
+    <div class="item-card-convenio">
+         <div class="logo-convenio-card">
+             <img src="img/convenios/evida.jpg" width="100%" >
+         </div>
+         <div class="card-convenio-nome mobile">Evida</div>
+    </div>
+
+
+    <div class="item-card-convenio">
+         <div class="logo-convenio-card">
+             <img src="img/convenios/faceb.jpg" width="100%" >
+         </div>
+         <div class="card-convenio-nome mobile">Faceb</div>
+    </div>
+
+
+    <div class="item-card-convenio">
+         <div class="logo-convenio-card">
+             <img src="img/convenios/fascal.jpg" width="100%" >
+         </div>
+         <div class="card-convenio-nome mobile">Fascal</div>
+    </div>
+
+
+    <div class="item-card-convenio">
+         <div class="logo-convenio-card">
+             <img src="img/convenios/fusex.jpg" width="100%" >
+         </div>
+         <div class="card-convenio-nome mobile">Fusex</div>
+    </div>
+
+
+    <div class="item-card-convenio">
+         <div class="logo-convenio-card">
+             <img src="img/convenios/gama.jpg" width="100%" >
+         </div>
+         <div class="card-convenio-nome mobile">Gama</div>
+    </div>
+
+
+    <div class="item-card-convenio">
+         <div class="logo-convenio-card">
+             <img src="img/convenios/geap.jpg" width="100%" >
+         </div>
+         <div class="card-convenio-nome mobile">Geap</div>
+    </div>
+
+    <div class="item-card-convenio">
+         <div class="logo-convenio-card">
+             <img src="img/convenios/golden-cross.jpg" width="100%" >
+         </div>
+         <div class="card-convenio-nome mobile">Golden cross</div>
+    </div>
+
+    <div class="item-card-convenio">
+         <div class="logo-convenio-card">
+             <img src="img/convenios/hnbra.jpg" width="100%" >
+         </div>
+         <div class="card-convenio-nome mobile">Hnbra</div>
+    </div>
+
+    <div class="item-card-convenio">
+         <div class="logo-convenio-card">
+             <img src="img/convenios/life.jpg" width="100%" >
+         </div>
+         <div class="card-convenio-nome mobile">Life</div>
+    </div>
+
     
-              </script>
-           </div>
-
-              <!-- Item card procedimento -->
-       <div class="item-procedimento-card-mb-ds">
-        <div class="click-card-exames mobile" onclick="openExames(exame3)"></div>
-        <p class="truncate mobile">Tratamento Endovascular</p>
-        <p class="desktop">Tratamento Endovascular</p>
-        <div class="sobre-card-procedimento-card-mb-ds desktop">
-            A Cirurgia Endovascular é um procedimento cirúrgico minimamente invasivo e usado para o tratamento das doenças dos vasos sanguíneos.
-        </div>
-           <div class="icon-item-procedimento-card-mb-ds">
-               <div class="icon-item-procedimento-card-mb-ds-int">
-                   <img src="img/icon-card-ex.png" width="100%">
-               </div>
-           </div>
-           <div  class="cta-procedimento-card-mb-ds fast-transition desktop" >Siba mais</div>
-           <script>
-            const exame3 = {
-              exameNome:'Tratamento Endovascular',
-              sobre:' A Cirurgia Endovascular é um procedimento cirúrgico minimamente invasivo e usado para o tratamento das doenças dos vasos sanguíneos.',
-              link:'',
-            }
-
-          </script>
-       </div>
-
-          <!-- Item card procedimento -->
-          <div class="item-procedimento-card-mb-ds">
-            <div class="click-card-exames mobile" onclick="openExames(exame3)"></div>
-            <p class="truncate mobile">Tratamento Endovascular</p>
-            <p class="desktop">Tratamento Endovascular</p>
-            <div class="sobre-card-procedimento-card-mb-ds desktop">
-                A Cirurgia Endovascular é um procedimento cirúrgico minimamente invasivo e usado para o tratamento das doenças dos vasos sanguíneos.
-            </div>
-               <div class="icon-item-procedimento-card-mb-ds">
-                   <div class="icon-item-procedimento-card-mb-ds-int">
-                       <img src="img/icon-card-ex.png" width="100%">
-                   </div>
-               </div>
-               <div  class="cta-procedimento-card-mb-ds fast-transition desktop" >Siba mais</div>
-               <script>
-                const exame3 = {
-                  exameNome:'Tratamento Endovascular',
-                  sobre:' A Cirurgia Endovascular é um procedimento cirúrgico minimamente invasivo e usado para o tratamento das doenças dos vasos sanguíneos.',
-                  link:'',
-                }
-    
-              </script>
-           </div>
-
-              <!-- Item card procedimento -->
-       <div class="item-procedimento-card-mb-ds">
-        <div class="click-card-exames mobile" onclick="openExames(exame3)"></div>
-        <p class="truncate mobile">Tratamento Endovascular</p>
-        <p class="desktop">Tratamento Endovascular</p>
-        <div class="sobre-card-procedimento-card-mb-ds desktop">
-            A Cirurgia Endovascular é um procedimento cirúrgico minimamente invasivo e usado para o tratamento das doenças dos vasos sanguíneos.
-        </div>
-           <div class="icon-item-procedimento-card-mb-ds">
-               <div class="icon-item-procedimento-card-mb-ds-int">
-                   <img src="img/icon-card-ex.png" width="100%">
-               </div>
-           </div>
-           <div  class="cta-procedimento-card-mb-ds fast-transition desktop" >Siba mais</div>
-           <script>
-            const exame3 = {
-              exameNome:'Tratamento Endovascular',
-              sobre:' A Cirurgia Endovascular é um procedimento cirúrgico minimamente invasivo e usado para o tratamento das doenças dos vasos sanguíneos.',
-              link:'',
-            }
-
-          </script>
-       </div>
-
-          <!-- Item card procedimento -->
-          <div class="item-procedimento-card-mb-ds">
-            <div class="click-card-exames mobile" onclick="openExames(exame3)"></div>
-            <p class="truncate mobile">Tratamento Endovascular</p>
-            <p class="desktop">Tratamento Endovascular</p>
-            <div class="sobre-card-procedimento-card-mb-ds desktop">
-                A Cirurgia Endovascular é um procedimento cirúrgico minimamente invasivo e usado para o tratamento das doenças dos vasos sanguíneos.
-            </div>
-               <div class="icon-item-procedimento-card-mb-ds">
-                   <div class="icon-item-procedimento-card-mb-ds-int">
-                       <img src="img/icon-card-ex.png" width="100%">
-                   </div>
-               </div>
-               <div  class="cta-procedimento-card-mb-ds fast-transition desktop" >Siba mais</div>
-               <script>
-                const exame3 = {
-                  exameNome:'Tratamento Endovascular',
-                  sobre:' A Cirurgia Endovascular é um procedimento cirúrgico minimamente invasivo e usado para o tratamento das doenças dos vasos sanguíneos.',
-                  link:'',
-                }
-    
-              </script>
-           </div>
-
-
-              <!-- Item card procedimento -->
-       <div class="item-procedimento-card-mb-ds">
-        <div class="click-card-exames mobile" onclick="openExames(exame3)"></div>
-        <p class="truncate mobile">Tratamento Endovascular</p>
-        <p class="desktop">Tratamento Endovascular</p>
-        <div class="sobre-card-procedimento-card-mb-ds desktop">
-            A Cirurgia Endovascular é um procedimento cirúrgico minimamente invasivo e usado para o tratamento das doenças dos vasos sanguíneos.
-        </div>
-           <div class="icon-item-procedimento-card-mb-ds">
-               <div class="icon-item-procedimento-card-mb-ds-int">
-                   <img src="img/icon-card-ex.png" width="100%">
-               </div>
-           </div>
-           <div  class="cta-procedimento-card-mb-ds fast-transition desktop" >Siba mais</div>
-           <script>
-            const exame3 = {
-              exameNome:'Tratamento Endovascular',
-              sobre:' A Cirurgia Endovascular é um procedimento cirúrgico minimamente invasivo e usado para o tratamento das doenças dos vasos sanguíneos.',
-              link:'',
-            }
-
-          </script>
-       </div>
-
-          <!-- Item card procedimento -->
-          <div class="item-procedimento-card-mb-ds">
-            <div class="click-card-exames mobile" onclick="openExames(exame3)"></div>
-            <p class="truncate mobile">Tratamento Endovascular</p>
-            <p class="desktop">Tratamento Endovascular</p>
-            <div class="sobre-card-procedimento-card-mb-ds desktop">
-                A Cirurgia Endovascular é um procedimento cirúrgico minimamente invasivo e usado para o tratamento das doenças dos vasos sanguíneos.
-            </div>
-               <div class="icon-item-procedimento-card-mb-ds">
-                   <div class="icon-item-procedimento-card-mb-ds-int">
-                       <img src="img/icon-card-ex.png" width="100%">
-                   </div>
-               </div>
-               <div  class="cta-procedimento-card-mb-ds fast-transition desktop" >Siba mais</div>
-               <script>
-                const exame3 = {
-                  exameNome:'Tratamento Endovascular',
-                  sobre:' A Cirurgia Endovascular é um procedimento cirúrgico minimamente invasivo e usado para o tratamento das doenças dos vasos sanguíneos.',
-                  link:'',
-                }
-    
-              </script>
-           </div>
-
-              <!-- Item card procedimento -->
-       <div class="item-procedimento-card-mb-ds">
-        <div class="click-card-exames mobile" onclick="openExames(exame3)"></div>
-        <p class="truncate mobile">Tratamento Endovascular</p>
-        <p class="desktop">Tratamento Endovascular</p>
-        <div class="sobre-card-procedimento-card-mb-ds desktop">
-            A Cirurgia Endovascular é um procedimento cirúrgico minimamente invasivo e usado para o tratamento das doenças dos vasos sanguíneos.
-        </div>
-           <div class="icon-item-procedimento-card-mb-ds">
-               <div class="icon-item-procedimento-card-mb-ds-int">
-                   <img src="img/icon-card-ex.png" width="100%">
-               </div>
-           </div>
-           <div  class="cta-procedimento-card-mb-ds fast-transition desktop" >Siba mais</div>
-           <script>
-            const exame3 = {
-              exameNome:'Tratamento Endovascular',
-              sobre:' A Cirurgia Endovascular é um procedimento cirúrgico minimamente invasivo e usado para o tratamento das doenças dos vasos sanguíneos.',
-              link:'',
-            }
-
-          </script>
-       </div>
-
-
-       
-
+     </div>
     
    </div>
     
@@ -281,92 +211,11 @@ Arts One e o  Azurion 3 F15.</p>
 
   </div>
 
-   <div id="faixa-convenios">
-     
-     <div id="faixa-convenios-int">
-
-       <div class="item-convenio-faixa">
-         <img src="img/convenios/amil.jpg" width="100%">
-       </div> 
-
-       <div class="item-convenio-faixa">
-         <img src="img/convenios/casembrapa.jpg" width="100%">
-       </div> 
-
-        <div class="item-convenio-faixa">
-         <img src="img/convenios/evida.jpg" width="100%">
-       </div> 
-
-
-        <div class="item-convenio-faixa">
-         <img src="img/convenios/gama.jpg" width="100%">
-       </div> 
-
-
-        <div class="item-convenio-faixa">
-         <img src="img/convenios/golden-cross.jpg" width="100%">
-       </div> 
-
-
-        <div class="item-convenio-faixa">
-         <img src="img/convenios/petrobrasdistribuidora.jpg" width="100%">
-       </div> 
-
-
-        <div class="item-convenio-faixa">
-         <img src="img/convenios/saude-caixa.jpg" width="100%">
-       </div> 
-
-
-        <div class="item-convenio-faixa">
-         <img src="img/convenios/saudepetrobras.jpg" width="100%">
-       </div> 
-
-
-        <div class="item-convenio-faixa">
-         <img src="img/convenios/stfmed.jpg" width="100%">
-       </div> 
-
-
-        <div class="item-convenio-faixa">
-         <img src="img/convenios/sulamericasaude.jpg" width="100%">
-       </div> 
-
-
-        <div class="item-convenio-faixa">
-         <img src="img/convenios/unimed.jpg" width="100%">
-       </div> 
-
-
-        <div class="item-convenio-faixa">
-         <img src="img/convenios/stj.jpg" width="100%">
-       </div> 
-
-
-        <div class="item-convenio-faixa">
-         <img src="img/convenios/saudepetrobras.jpg" width="100%">
-       </div> 
-
-     </div> 
-
-   </div>
-
-
-   <div  id="convenios-mb">
-     <h2>Atendemos com <br>
-     <span class="span-title"> os melhores convênios </span>
-     </h2>
-     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit dolore magna aliqua.</p>
-
-     <div id="cta-convenios">
-       <div id="cta-convenios-int">Ver todos os convênios</div>
-     </div>
-
-   </div>
+   
 
 
       <!-- Por dentro ICTCor -->
-      <div id="por-dentro-ictcor-mb">
+      <div id="por-dentro-ictcor-mb" class="fix-pg-convenios-pr-dentro-ictcor">
 
         <div id="view-por-dentro-ictcor">
             

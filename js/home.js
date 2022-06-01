@@ -72,12 +72,16 @@ var mySwiper = new Swiper('.swiper-banner-home-desktop', {
                
    
                500: {
-                   slidesPerView: 1.8,
+                   slidesPerView: 1,
                    spaceBetween: 10,
                },
                700: {
                    slidesPerView: 1.8,
                    spaceBetween: 10,
+               },
+               800: {
+                slidesPerView: 2,
+                spaceBetween: 10,
                },
                1000: {
                    slidesPerView: 2.5,
@@ -89,11 +93,11 @@ var mySwiper = new Swiper('.swiper-banner-home-desktop', {
                },
    
                1480: {
-                   slidesPerView: 3.6,
+                   slidesPerView: 3.7,
                    spaceBetween: 10,
                },
                1600: {
-                   slidesPerView: 4,
+                   slidesPerView: 4.2,
                    spaceBetween: 100,
                },
                1900: {

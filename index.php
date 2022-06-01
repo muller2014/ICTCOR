@@ -126,7 +126,9 @@ confira os procedimentos e exames disponíveis
           </div>
 
           <div id="cta-procedimentos-exames-ds">
+          <a href="procedimentos.php">  
             <div id="cta-int-exames-ds">Ver todos os procedimentos e exames</div>
+           </a>  
           </div>
 
      </div>
@@ -316,7 +318,7 @@ confira os procedimentos e exames disponíveis
 
 
      <h3>Procedimentos <br> <span class="span-title-exames-mb">e exames</span></h3>
-     <div id="cta-all-exames-procedimentos">Ver tudo</div>
+     <a href="procedimentos.php">  <div id="cta-all-exames-procedimentos">Ver tudo</div></a>
 
       <div id="swiper-mb-exames">
 
@@ -446,9 +448,11 @@ confira os procedimentos e exames disponíveis
     </div>
 
     <div id="cta-lista-especialidades-ds">
+    <a href="especialidades.php">  
       <div id="cta-especialidades-lista-ds">
         Ver tudo
       </div>
+</a>
     </div> 
 
       </div>
@@ -1267,10 +1271,12 @@ Arts One e o  Azurion 3 F15.</p>
       <span class="span-title"> os melhores convênios </span>
       </h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit dolore magna aliqua.</p>
-
+      
+      <a href="convenios.php">  
       <div id="cta-convenios">
         <div id="cta-convenios-int">Ver todos os convênios</div>
       </div>
+        </a>
 
     </div>
 

@@ -89,7 +89,7 @@
 
 
             <!-- Item de menu -->
-      <div class="desktop-menu-item fast-transition">
+      <div class="desktop-menu-item ">
         <div class="ornamento-menu-desktop oranamento-m-e"></div>
         <div class="ornamento-menu-desktop oranamento-m-d"></div>
         <div class="desktop-menu-txt">Contato</div>
@@ -97,15 +97,17 @@
 
 
             <!-- Item de menu -->
-      <div class="desktop-menu-item fast-transition">
+     <a href="procedimentos.php">        
+      <div class="desktop-menu-item ">
         <div class="ornamento-menu-desktop oranamento-m-e"></div>
         <div class="ornamento-menu-desktop oranamento-m-d"></div>
         <div class="desktop-menu-txt">Convênios</div>
       </div>
+</a>
 
 
             <!-- Item de menu -->
-      <div class="desktop-menu-item fast-transition">
+      <div class="desktop-menu-item ">
         <div class="ornamento-menu-desktop oranamento-m-e"></div>
         <div class="ornamento-menu-desktop oranamento-m-d"></div>
         <div class="desktop-menu-txt">Corpo Cliníco</div>
@@ -114,7 +116,7 @@
 
             <!-- Item de menu -->
       <a href="especialidades.php">      
-      <div class="desktop-menu-item fast-transition">
+      <div class="desktop-menu-item ">
         <div class="ornamento-menu-desktop oranamento-m-e"></div>
         <div class="ornamento-menu-desktop oranamento-m-d"></div>
         <div class="desktop-menu-txt">Especialidades</div>
@@ -124,7 +126,7 @@
 
             <!-- Item de menu -->
       <a href="procedimentos.php">    
-      <div class="desktop-menu-item fast-transition">
+      <div class="desktop-menu-item ">
         <div class="ornamento-menu-desktop oranamento-m-e"></div>
         <div class="ornamento-menu-desktop oranamento-m-d"></div>
         <div class="desktop-menu-txt">Procedimentos</div>
@@ -134,7 +136,7 @@
 
       <!-- Item de menu -->
       <a href="index.php">
-      <div class="desktop-menu-item fast-transition menu-desktop-atv-item">
+      <div class="desktop-menu-item  menu-desktop-atv-item">
         <div class="ornamento-menu-desktop oranamento-m-e ornamento-menu-atv"></div>
         <div class="ornamento-menu-desktop oranamento-m-d ornamento-menu-atv"></div>
         <div class="desktop-menu-txt menu-txt-atv">Início</div>
@@ -204,13 +206,15 @@
           <div class="arrow-menu-mobile"></div>
         </div>
       </div>
-
+       
+      <a href="convenios.php">  
        <div class="item-menu-mobile">
         Convenios
         <div class="icon-menu-mobile">
           <div class="arrow-menu-mobile"></div>
         </div>
-      </div>
+      </div>  
+     </a>
 
        <div class="item-menu-mobile">
         Blog
