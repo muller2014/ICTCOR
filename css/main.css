@@ -432,7 +432,7 @@ box-shadow: 0px -18px 72px -17px rgba(0,0,0,0.19);
 }
 
 #view-pg-procedimentos { width: 95%; height: auto; position: relative; float: left; margin-left: 2.5%; margin-top: 120px; padding: 0px 20px; }
-#bg-dots-procedimentos{width: 50%; height: 300px; position: absolute; top: 0px; left: 0px; background: url(../img/bg-depoimentos.png); background-repeat: repeat; opacity: 0.2;}
+#bg-dots-procedimentos{width: 50%; height: 180px; position: absolute; top: 0px; left: 0px; background: url(../img/bg-depoimentos.png); background-repeat: repeat; opacity: 0.2;}
 .bg-dots-procedimentos { top: -80px !important; }
 
 
@@ -450,6 +450,34 @@ box-shadow: 0px -18px 72px -17px rgba(0,0,0,0.19);
 /* Inicio página de convenios */
 .item-card-convenio { width: 18.6%; height: auto; position: relative; float: left; margin-left: 1%; margin-bottom: 20px;; border: 1px solid #dadada; border-radius: 10px; background-color: #fff; }
 .logo-convenio-card{width: 100%; height: auto; position: relative; float: left; padding: 13px 50px;}
+
+
+/* Inicio página corpo clínico */
+.corpo-clinico-pagina{margin-top: 130px !important;}
+#ornamento-ccp{width: 100%; height: 80px; position: relative; float: left; margin-bottom: 40px; background: url(../img/blue-dots.png); background: ; background-repeat: repeat;}
+
+#view-pg-corpo-clinico{width: 100%; height: auto; position: relative; margin: auto; overflow: hidden;}
+
+/* Faixa corpo clínico pg */
+.faixa-corpo-clinico-pg{width: 100%; height: auto; position: relative; float: left;}
+.bg-faixa-corpo-clinico { width: 100%; height: 530px; position: absolute; top: 370px; background-color: #eafbff; }
+
+.toolbar-faixa-corpo-clinico{width:90%; height: auto; position: relative; margin: auto;}
+.toolbar-faixa-corpo-clinico h3{width: auto; height: auto; position: relative; float: left; font-size: 35px; color: #3f3d56; }
+.div-controles-faixa-corpo-clinico {width: 210px; height: auto; position: relative; float: right; margin-right: 0px;}
+
+/* Slider página corpo clínico */
+.swiper-cards-corpo-clinico-pg{width: 100%; height: auto; position: relative; float: left; margin-top: 20px; margin-bottom: 60px; overflow: hidden;}
+
+/* card corpo clínico desktop */
+.item-card-corpo-clinico-ds{width: 300px; height: 330px; position:relative; float: left; margin-left: 30px; background-color: #fff; border-radius: 25px; border: 1px solid #dadada; cursor: pointer;}
+.item-card-corpo-clinico-ds:hover{background-color: #fff5f6; border: 1px solid #ffdada;}
+.foto-card-cp-clinico-ds{width: 100%; height: auto; position: relative; float: left; margin-top: 15px;}
+.foto-card-cp-clinico-int{width: 90%; height: auto; position: relative; margin: auto; border-radius: 20px; overflow: hidden;}
+.item-card-corpo-clinico-ds p { width: 60%; height: auto; position: relative; float: left; margin-top: 20px; padding: 0px 20px; font-size: 18px; color: #373737; }
+
+#fix-rodape-pg{width: 100%; height: 100px; position: relative; float: left;} 
+
 
 /*Telas menores*/
 @media only screen  
@@ -543,8 +571,10 @@ and (max-width:1500px) {
 
 
 /* Inicio página de convenios */
-.item-card-convenio { width: 31.6%; height: auto; position: relative; float: left; margin-left: 1%; margin-bottom: 20px;; border: 1px solid #dadada; border-radius: 10px; background-color: #fff; }
+.item-card-convenio { width: 23.6%; height: auto; position: relative; float: left; margin-left: 1%; margin-bottom: 20px;; border: 1px solid #dadada; border-radius: 10px; background-color: #fff; }
 .logo-convenio-card{width: 100%; height: auto; position: relative; float: left; padding: 13px 50px;}
+
+
 
 
 }
@@ -1066,6 +1096,32 @@ box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06);
 #icon-close-depoimento-card-aberto{width:25px; height:25px; position: absolute; left: 50%; top: 50%; margin-left: -12.5px; margin-top: -12.5px; background: url(../img/close.png); background-size:25px;}
 #close-depoimento-card-aberto:hover{background-color:#db1b1b;}
 
+
+/*Inicio página corpo clínico*/
+.corpo-clinico-pagina { margin-top: 0px !important; }
+#view-banner-corpo-clinico { width: 100%; height: auto; position: relative; margin: auto; z-index: 10; }
+#view-banner-corpo-clinico h4 { width: 100%; height: auto; position: relative; margin-top: 165px; float: left; text-align: center; font-size: 30px; line-height: 36px; color: #78858c; }
+#view-banner-corpo-clinico p { width: 100%; height: auto; position: relative; float: left; margin-top: 0px; padding: 0px 100px; font-size: 20px; text-align: center; margin-top: -5px; }
+#circle-a-bg-banner-corpo-clinico { width: 400px; height: 400px; position: absolute; left: 50%; top: 50%; margin-left: -200px; margin-top: -160px; border-radius: 50%; border: 4px solid #fff; z-index: 10; }
+#ft-banner-cc-1 { width: 80px; height: 80px; position: absolute; left: -30px; top: 120px; background-color: #dadada; border-radius: 50%; border: 6px solid #fff; }
+#ft-banner-cc-2 { width: 60px; height: 60px; position: absolute; right: -24px; bottom: 120px; background-color: #dadada; border-radius: 50%; border: 6px solid #fff; }
+#circle-b-bg-banner-corpo-clinico { width: 340px; height: 340px; position: absolute; left: 50%; top: 50%; margin-left: -174px; margin-top: -130px; border-radius: 50%; border: 4px solid #fff; }
+
+#ornamento-ccp { width: 100%; height: 50px; position: relative; float: left; margin-bottom: -10px; background: url(../img/blue-dots.png); background:; background-repeat: repeat; }
+
+.bg-faixa-corpo-clinico { width: 100%; height: 350px; position: absolute; top: 263px; background-color: #eafbff; }
+.toolbar-faixa-corpo-clinico h3 { width: auto; height: auto; position: relative; float: left; font-size: 22px; color: #3f3d56; }
+.div-controles-faixa-corpo-clinico { display: none; }
+.swiper-cards-corpo-clinico-pg { width: 100%; height: auto; position: relative; float: left; margin-top: 0px; margin-bottom: 12px; overflow: hidden; }
+.item-card-corpo-clinico-ds { width: 200px; height: 260px; position: relative; float: left; margin-left: 20px; background-color: #fff; border-radius: 20px; border: 1px solid #dadada; cursor: pointer; }
+.foto-card-cp-clinico-int { width: 90%; height: auto; position: relative; margin: auto; border-radius: 15px; overflow: hidden; }
+.item-card-corpo-clinico-ds p { width: 80%; height: auto; position: relative; float: left; margin-top: 20px; padding: 0px 20px; font-size: 16px; color: #373737; }
+.fix-estrutura-mb-pg { width: 100%; height: 370px !important; position: relative; float: left; margin-top: 50px !important; }
+.fix-estrutura-mb-pg  h3 { margin-top: 75px !important; }
+
+#fix-rodape-pg { width: 100%; height: 20px; position: relative; float: left; }
+
+
 }
 
 /*Inicio smartphones*/
@@ -1340,8 +1396,6 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
 .card-convenio-nome { width: auto; height: auto; position: absolute; right: 15px; top: 18px; font-size: 16px; color: #63637d; text-align: right; }
 
 
-
-
 /*Jenales*/
 #mask{width: 100%; height: 0%; position: fixed; z-index: 9999; background-color:#fff; opacity: 0;}
 
@@ -1398,7 +1452,29 @@ box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06);
 #close-depoimento-card-aberto:hover{background-color:#db1b1b;}
 
 
+/*Inicio página corpo clínico*/
+.corpo-clinico-pagina { margin-top: 0px !important; }
+#view-banner-corpo-clinico { width: 100%; height: auto; position: relative; margin: auto; z-index: 10; }
+#view-banner-corpo-clinico h4 { width: 100%; height: auto; position: relative; margin-top: 165px; float: left; text-align: center; font-size: 25px; line-height: 30px; color: #78858c; }
+#view-banner-corpo-clinico p { width: 100%; height: auto; position: relative; float: left; margin-top: 0px; padding: 0px 50px; font-size: 20px; text-align: center; margin-top: -5px; }
+#circle-a-bg-banner-corpo-clinico { width: 400px; height: 400px; position: absolute; left: 50%; top: 50%; margin-left: -200px; margin-top: -160px; border-radius: 50%; border: 4px solid #fff; z-index: 10; }
+#ft-banner-cc-1 { width: 80px; height: 80px; position: absolute; left: -30px; top: 120px; background-color: #dadada; border-radius: 50%; border: 6px solid #fff; }
+#ft-banner-cc-2 { width: 60px; height: 60px; position: absolute; right: -24px; bottom: 120px; background-color: #dadada; border-radius: 50%; border: 6px solid #fff; }
+#circle-b-bg-banner-corpo-clinico { width: 340px; height: 340px; position: absolute; left: 50%; top: 50%; margin-left: -174px; margin-top: -130px; border-radius: 50%; border: 4px solid #fff; }
 
+#ornamento-ccp { width: 100%; height: 50px; position: relative; float: left; margin-bottom: -10px; background: url(../img/blue-dots.png); background:; background-repeat: repeat; }
+.toolbar-faixa-corpo-clinico { width: 80%; height: auto; position: relative; margin: auto; }
+.bg-faixa-corpo-clinico { width: 100%; height: 350px; position: absolute; top: 263px; background-color: #eafbff; }
+.toolbar-faixa-corpo-clinico h3 { width: auto; height: auto; position: relative; float: left; font-size: 19px; color: #3f3d56; }
+.div-controles-faixa-corpo-clinico { display: none; }
+.swiper-cards-corpo-clinico-pg { width: 100%; height: auto; position: relative; float: left; margin-top: 0px; margin-bottom: 12px; overflow: hidden; }
+.item-card-corpo-clinico-ds { width: 200px; height: 260px; position: relative; float: left; margin-left: 20px; background-color: #fff; border-radius: 20px; border: 1px solid #dadada; cursor: pointer; }
+.foto-card-cp-clinico-int { width: 90%; height: auto; position: relative; margin: auto; border-radius: 15px; overflow: hidden; }
+.item-card-corpo-clinico-ds p { width: 80%; height: auto; position: relative; float: left; margin-top: 20px; padding: 0px 20px; font-size: 16px; color: #373737; }
+.fix-estrutura-mb-pg { width: 100%; height: 370px !important; position: relative; float: left; margin-top: 50px !important; }
+.fix-estrutura-mb-pg  h3 { margin-top: 75px !important; }
+
+#fix-rodape-pg { width: 100%; height: 20px; position: relative; float: left; }
 
 }
 

@@ -97,7 +97,7 @@
 
 
             <!-- Item de menu -->
-     <a href="procedimentos.php">        
+     <a href="convenios.php">        
       <div class="desktop-menu-item ">
         <div class="ornamento-menu-desktop oranamento-m-e"></div>
         <div class="ornamento-menu-desktop oranamento-m-d"></div>
@@ -107,11 +107,13 @@
 
 
             <!-- Item de menu -->
+      <a href="corpo-clinico.php">        
       <div class="desktop-menu-item ">
         <div class="ornamento-menu-desktop oranamento-m-e"></div>
         <div class="ornamento-menu-desktop oranamento-m-d"></div>
         <div class="desktop-menu-txt">Corpo Cliníco</div>
       </div>
+      </a>
 
 
             <!-- Item de menu -->

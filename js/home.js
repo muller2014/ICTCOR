@@ -91,6 +91,11 @@ var mySwiper = new Swiper('.swiper-banner-home-desktop', {
                    slidesPerView: 3.1,
                    spaceBetween: 10,
                },
+
+               1350: {
+                slidesPerView: 3.3,
+                spaceBetween: 10,
+              },
    
                1480: {
                    slidesPerView: 3.7,
