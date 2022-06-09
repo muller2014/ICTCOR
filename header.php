@@ -202,12 +202,14 @@
       </div>
      </a>
 
+      <a href="corpo-clinico.php"> 
        <div class="item-menu-mobile">
         Corpo Clínico
         <div class="icon-menu-mobile">
           <div class="arrow-menu-mobile"></div>
         </div>
       </div>
+    </a>
        
       <a href="convenios.php">  
        <div class="item-menu-mobile">

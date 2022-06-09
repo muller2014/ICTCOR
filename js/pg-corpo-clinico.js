@@ -26,7 +26,7 @@
         },
 
          380: {
-            slidesPerView: 2,
+            slidesPerView: 1.9,
             spaceBetween: 10,
         },
 
@@ -103,7 +103,7 @@
         },
 
          380: {
-            slidesPerView: 2,
+            slidesPerView: 1.9,
             spaceBetween: 10,
         },
 
@@ -180,7 +180,7 @@
         },
 
          380: {
-            slidesPerView: 2,
+            slidesPerView: 1.9,
             spaceBetween: 10,
         },
 
@@ -257,7 +257,7 @@
         },
 
          380: {
-            slidesPerView: 2,
+            slidesPerView: 1.9,
             spaceBetween: 10,
         },
 
@@ -334,7 +334,7 @@
         },
 
          380: {
-            slidesPerView: 2,
+            slidesPerView: 1.9,
             spaceBetween: 10,
         },
 
@@ -411,7 +411,7 @@
         },
 
          380: {
-            slidesPerView: 2,
+            slidesPerView: 1.9,
             spaceBetween: 10,
         },
 
@@ -488,7 +488,7 @@
         },
 
          380: {
-            slidesPerView: 2,
+            slidesPerView: 1.9,
             spaceBetween: 10,
         },
 
@@ -565,7 +565,7 @@
         },
 
          380: {
-            slidesPerView: 2,
+            slidesPerView: 1.9,
             spaceBetween: 10,
         },
 
