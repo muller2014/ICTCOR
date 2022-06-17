@@ -127,7 +127,7 @@ box-shadow: 0px -18px 72px -17px rgba(0,0,0,0.19);
 .desktop-menu-item:hover .desktop-menu-txt{color:#fff;}
 
 
-.desktop-menu-txt { width: auto; height: auto; position: relative; float: left; padding: 27px 0px; font-size: 18px; color: #e42a2a; font-weight: 400; }
+.desktop-menu-txt { width: auto; height: auto; position: relative; float: left; padding: 27px 0px; font-size: 18px; color: #acacac; font-weight: 400; }
 .ornamento-menu-desktop { width: 30px; height: 30px; position: absolute; top: 50%; margin-top: -15px; background-color: #fff; border-radius: 50%; display: none; border: 1px solid #dadada; }
 .oranamento-m-e{left: -8px;}
 .oranamento-m-d{right: -8px;}
@@ -479,6 +479,120 @@ box-shadow: 0px -18px 72px -17px rgba(0,0,0,0.19);
 #fix-rodape-pg{width: 100%; height: 100px; position: relative; float: left;} 
 
 
+/*Inicio página de contato*/
+#header-pg-contato{width: 100%; height:auto; position: relative; float: left; margin-top: 70px;}
+#view-header-pg-contato{width: 90%; height: auto; position: relative; margin: auto;}
+.div-header-pg-contato{width:50%; height: auto; position: relative; float: left;}
+
+.div-header-pg-contato h2{width: 100%; height: auto; position: relative; float: left; margin-top: 200px; font-size: 40px; color:#2d2935;}
+.div-header-pg-contato p{width: 65%; height: auto; position: relative; float: left; margin-top: -20px; font-size: 25px; color:#443f4e;} 
+#cta-header-pg-contato{width: 100%; height: auto; position: relative; float: left;}
+#cta-int-header-pg-contato{width:auto; height: auto; position: relative; float: left; padding: 12px 30px; background-color:#de2c30; color: #fff; border-radius: 40px; cursor: pointer;}
+#cta-int-header-pg-contato:hover{background-color:#be2226;}
+
+#ilustra-topo-pg-contato { width: 600px; height: 444px; position: relative; float: right; margin-top: 120px; margin-right: 30px; background: url(../img/ilustracao-contato.png); background-size: 600px; }
+
+
+/*Inicio blocos de contato*/
+#faixa-bloxos-contatos{width: 100%; height: auto; position: relative; float:left; margin-top: 100px;}
+
+/*Bloco info contato*/
+.item-bloco-contato{width: 32%; height: 260px; position: relative; float: left; margin-right: 1.3%; background-color:#fff3f3; border-radius: 20px; border: 1px solid #fff3f3;}
+.item-bloco-contato:last-child{margin-right: 0%;}
+.item-bloco-contato:hover{border: 1px solid #ffbebe;}
+
+.item-bloco-contato h3{width: 100%; height: auto; position: relative; float: left; margin-top: 25px; padding: 0px 30px; font-size: 22px; color:#eb2e45; }
+.item-bloco-contato p{width:85%; height: 70px; position: relative; float: left; padding: 0px 30px; margin-top: -10px; font-size: 16px; color: #333333;}  
+.item-info-bloco-contato{width: auto; height: auto; position: relative; float: left; margin-top: 30px; margin-left: 20px; padding: 10px 20px; background-color:#ffffff; color:#04b5ff; font-size: 17px; font-weight: 400; border-radius: 10px; cursor: pointer;}
+.item-info-bloco-contato:hover{background-color:#e9f9ff;}
+
+#bloco-mapa-localizacao{width: 99%; height:820px; position: relative; float: left; margin-top: 100px; margin-bottom: 100px; background-color: #fff3f3; border-radius: 20px;  border: 1px solid #fff3f3;}
+#bloco-mapa-localizacao:hover{border: 1px solid #ffbebe;}
+
+#topo-bloco-mapa-localizacao{width: 1200px; height: auto; position: relative; margin: auto;}
+#topo-bloco-mapa-localizacao h3 { width: 100%; height: auto; position: relative; float: left; margin-top: 70px; font-size: 30px; color: #eb2e45; text-align: center; font-weight: 400; }
+#topo-bloco-mapa-localizacao p {width: 400px; height: auto; position: relative; margin: auto; padding-top: 20px; font-size: 19px; text-align: center; padding: 0px 20px;}
+
+#container-mapa-localizacao{width:100%; height: auto; position: relative; float: left; margin-top: 40px;}
+#container-mapa-localizacao-int { width: 90%; height: 500px; position: relative; margin: auto; border-radius: 20px; overflow: hidden; }
+
+
+/*Inicio faq*/
+#header-faq{width: 100%; height: 600px; position: relative; float: left; background-color: #e8fbff; margin-top: 129px;}
+#view-header-faq{width: 1200px; height: auto; position: relative; margin: auto; }
+#icon-topo-header-faq{width: 100%; height: auto; position: relative; float: left; margin-top: 100px;}
+#icon-int-topo-header-faq{width:200px; height: 69px; position: relative; margin: auto; background: url(../img/icn-header-faq.png); background-size: 200px;}
+#view-header-faq h1 {width: 100%; height: auto; position: relative; float: left; margin-top: 5px; text-align: center; color: #dc2e32; font-size: 35px; font-weight: 400; }
+#view-header-faq p { width: 100%; height: auto; position: relative; float: left; margin-top: -10px; font-size: 20px; text-align: center; padding: 0px 350px; }
+
+
+#s-bloco-perguntas-frequentes{width: 100%; height: auto; position: relative; float: left; z-index: 20;}
+#container-dots-header-faq{width: 100%; height: 250px; position: relative; float: left; background: url(../img/blue-dots.png); background-repeat: repeat;}
+#view-s-bloco-perguntas-frequentes{width: 1200px; height: auto; position: relative; margin: auto; z-index: 10;}
+#bloco-int-perguntas-frequentes { width: 90%; height: auto; position: relative; float: left; margin-left: 5%; background-color: #fff; border-radius: 20px; margin-top: -400px; border: 1px solid #c0d8e4; overflow: hidden;}
+.collapsible { border-top: 0px solid #ddd !important; border-right: 0px solid #ddd !important; border-left: 0px solid #c0d8e4 !important; margin: 0.5rem 0 1rem 0; }
+.collapsible-header { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; cursor: pointer; -webkit-tap-highlight-color: transparent; line-height: 1.5; padding: 1rem; background-color: #fff; border-bottom: 1px solid #d2e4ff; }
+
+#chamada-dicionario-cardiologico{width: 100%; height: auto; position: relative; float: left; margin-top: 50px; margin-bottom: 100px;}
+#chamada-dicionario-cardiologico h3 { width: 100%; height: auto; position: relative; float: left; margin-top: 20px; font-size: 35px; color: #78858c; text-align: center; font-weight: 400; padding: 0px 380px; }
+#cta-dicionario-cardiologico-pg-faq{width: 100%; height: auto; position: relative; float: left; margin-top: 10px;}
+#cta-dicionario-cardiologico-pg-faq-int{width: 260px; height: auto; position: relative; margin: auto; padding: 10px 0px; font-size: 20px; color: #fff; background-color: #de2c30; text-align: center; border-radius: 30px; cursor: pointer;}
+#cta-dicionario-cardiologico-pg-faq-int:hover{background-color: #af272a;}
+
+
+
+/*Página interna de procedimentos*/
+#bg-topo-procedimentos-pg{width: 100%; height: 300px; position: absolute; top: 100px; background: url(../img/blue-dots.png); background-repeat: repeat;}
+#banner-procedimentos-pg { width: 100%; height:auto; position: relative; float: left; margin-top: 200px; z-index: 99; }
+#view-banner-procedimentos-pg{width: 88%; height: auto; position: relative; margin: auto; border-radius: 20px; overflow: hidden;}
+#icone-banner-procedimentos { width: 100px; height: 100px; position: absolute; left: -14px; top: -86px;/* margin-left: -610px; */ background-color: #f62727; padding: 10px; border: 12px solid #fff; z-index: 99; border-radius: 100%; }
+#sobre-procedimento-pg{width: 100%; height: auto; position: relative; float: left; margin-top: 30px;}
+#view-sobre-procedimento-pg{width: 88%; height: auto; position: relative; margin: auto;}
+
+#conteudo-sobre-procedimento-pg{width: 60%; height: auto; position: relative; float: left; padding-left: 20px;}
+#conteudo-sobre-procedimento-pg h1{width: 100%; height: auto; position: relative; float: left; font-size: 32px; color: #f62727;}
+#conteudo-sobre-procedimento-pg p { width: 100%; height: auto; position: relative; float: left; margin-top: 0px; margin-bottom: 30px; font-size: 18px; letter-spacing: 0.5px; line-height: 25px; color: #525252; }
+
+#barra-direita-procedimentos-pg{width: 40%; height: auto; position: relative; float: left; padding-left: 50px;}
+
+/*Bloco info contato página de procedimentos*/
+#item-bloco-contato-procedimentos { width: 100%; height: auto; position: relative; float: left; background-color: #fff3f3; border-radius: 10px; border: 1px solid #fff3f3; margin-top: 40px;padding-bottom: 29px; }
+#item-bloco-contato-procedimentos:last-child{margin-right: 0%;}
+#item-bloco-contato-procedimentos:hover{border: 1px solid #ffbebe;}
+
+#item-bloco-contato-procedimentos h3{width: 100%; height: auto; position: relative; float: left; margin-top: 25px; padding: 0px 30px; font-size: 22px; color:#eb2e45; }
+#item-bloco-contato-procedimentos p{width:88%; height: 70px; position: relative; float: left; padding: 0px 30px; margin-top: -10px; font-size: 16px; color: #333333;}  
+#item-info-bloco-contato-procedimentos { width: auto; height: auto; position: relative; float: left; margin-top: -1px; margin-left: 20px; padding: 10px 20px; background-color: #ffffff; color: #04b5ff; font-size: 17px; font-weight: 400; border-radius: 10px; cursor: pointer; }
+#item-info-bloco-contato-procedimentos:hover{background-color:#e9f9ff;}
+
+
+#bloco-mensagem-barra-pg-procedimentos { width: 100%; height: auto; position: relative; float: left; margin-top: 20px; border-radius: 10px; background-color: #49acff; border: 1px solid #49acff; padding-bottom: 29px; }
+#bloco-mensagem-barra-pg-procedimentos:hover {border: 1px solid #1e98ff;}
+#bloco-mensagem-barra-pg-procedimentos p { width: 100%; height: auto; position: relative; float: left; font-size: 18px; color: #fff; padding: 0px 20px; font-weight: 300; }
+#cta-bloco-mensagem-pg-procedimentos { width: auto; height: auto; position: relative; float: left; margin-top: 20px; margin-left: 20px; background-color: #fff; color: #49acff; font-size: 20px; padding: 10px 25px; border-radius: 10px; cursor: pointer; }
+
+#lista-procedimentos-interna{width: 100%; height: auto; position: relative; float: left; background-color:#f1fcff; margin-top: 30px; padding-bottom: 30px;}
+#view-lista-procedimentos{width: 88%; position: relative; margin: auto;}
+
+#view-lista-procedimentos h4 { width: 280px; height: auto; position: relative; float: left; margin-top: 50px; font-size: 36px; padding: 0px 20px; }
+#view-lista-procedimentos p { width: 100%; height: auto; position: relative; float: left; margin-top: 0px; font-size: 22px; color: #6b6b6b; padding: 0px 20px; }
+
+#div-cards-procedimentos-pg {width: 100%; height: auto; position: relative; float: left; margin-top: 20px;}
+
+.item-procedimento-card-mb-ds-pg { width: 23%; height: 292px; position: relative; float: left; margin-left: 2%; margin-bottom: 36px; padding: 15px 15px; background-color: #fff; border: 1px solid #dadada; border-radius: 10px; cursor: pointer; z-index: 10; }
+.item-procedimento-card-mb-ds-pg p { width: 75% !important; height: 35px !important; position: relative !important; float: left !important; margin-left: 0px !important; margin-top: 5px !important; font-size: 22px !important; line-height: 25px !important; color: #313131 !important; padding: 0px 0px !important;}
+.sobre-card-procedimento-card-mb-ds-pg { width: 100%; height: auto; position: relative; float: left; font-size: 16px; color: #78858c; padding: 0px 0px; margin-top: 10px; font-weight: 300; }
+.icon-item-procedimento-card-mb-ds-pg { width: 50px; height: 50px; position: absolute; right: 13px; float: right; border-radius: 50%; background-color: #e51f36; }
+.icon-item-procedimento-card-mb-ds-pg-int { width: 30px; height: 30px; position: absolute; top: 50%; left: 50%; margin-left: -15px; margin-top: -15px; }
+.item-procedimento-card-mb-ds-pg:hover{background-color:#ffe1e4;  border: 1px solid #ffc6cc;}
+
+.cta-procedimento-card-mb-ds-pg{width: auto; height: auto; position: absolute; bottom: 20px; padding: 5px 30px; font-size: 18px; color: #fff; background-color: #e42e3e; border-radius: 20px; cursor: pointer; opacity: 0;}
+.item-procedimento-card-mb-ds-pg:hover .cta-procedimento-card-mb-ds-pg{ opacity: 1;}
+
+
+
+#temp{width: 100%; height: 500px; position: relative; float: left;}
+
 /*Telas menores*/
 @media only screen  
 and (min-width:1100px) 
@@ -569,12 +683,36 @@ and (max-width:1500px) {
 
 .item-procedimento-card-mb-ds { width: 31%; height: 292px; position: relative; float: left; margin-left: 2%; margin-bottom: 36px; padding: 15px 15px; background-color: #fff; border: 1px solid #dadada; border-radius: 10px; cursor: pointer; z-index: 10; }
 
-
 /* Inicio página de convenios */
 .item-card-convenio { width: 23.6%; height: auto; position: relative; float: left; margin-left: 1%; margin-bottom: 20px;; border: 1px solid #dadada; border-radius: 10px; background-color: #fff; }
 .logo-convenio-card{width: 100%; height: auto; position: relative; float: left; padding: 13px 50px;}
 
+#faixa-bloxos-contatos { width: 100%; height: auto; position: relative; float: left; margin-top: 50px; }
+.item-bloco-contato { width: 32%; height: 310px; position: relative; float: left; margin-right: 1.3%; background-color: #fff3f3; border-radius: 20px; border: 1px solid #fff3f3; }
+.item-bloco-contato h3 { width: 100%; height: auto; position: relative; float: left; margin-top: 25px; padding: 0px 30px; font-size: 18px; color: #eb2e45; }
+.item-bloco-contato p { width: 100%; height: 80px; position: relative; float: left; padding: 0px 30px; margin-top: -10px; font-size: 14px; color: #333333; }
+.item-info-bloco-contato { width: auto; height: auto; position: relative; float: left; margin-top: 10px; margin-bottom: 4px; margin-left: 20px; padding: 10px 20px; background-color: #ffffff; color: #04b5ff; font-size: 17px; font-weight: 400; border-radius: 10px; cursor: pointer; }
 
+.fix-email-pg-contato{margin-top: 28px;}
+
+#topo-bloco-mapa-localizacao { width: 90%; height: auto; position: relative; margin: auto; }
+.div-header-pg-contato h2 { width: 100%; height: auto; position: relative; float: left; margin-top: 200px; font-size: 31px; color: #2d2935; }
+.div-header-pg-contato p { width: 65%; height: auto; position: relative; float: left; margin-top: -20px; font-size: 21px; color: #443f4e; }
+
+/*Inicio página de faq*/
+#view-header-faq { width: 1000px; height: auto; position: relative; margin: auto; }
+#view-header-faq p { width: 100%; height: auto; position: relative; float: left; margin-top: -10px; font-size: 20px; text-align: center; padding: 0px 260px; }
+#view-s-bloco-perguntas-frequentes { width: 1000px; height: auto; position: relative; margin: auto; z-index: 10; }
+#chamada-dicionario-cardiologico h3 { width: 100%; height: auto; position: relative; float: left; margin-top: 20px; font-size: 35px; color: #78858c; text-align: center; font-weight: 400; padding: 0px 280px; }
+
+
+/*Inicio página de procedimentos interna*/
+#view-banner-procedimentos-pg{width: 88%; min-width: 1000px; height: auto; position: relative; margin: auto; border-radius: 20px; overflow: hidden;}
+#view-sobre-procedimento-pg { width: 88%; min-width: 1000px; height: auto; position: relative; margin: auto; }
+#item-bloco-contato-procedimentos { width: 100%; height: auto; position: relative; float: left; background-color: #fff3f3; border-radius: 10px; border: 1px solid #fff3f3; margin-top: 40px; padding-bottom: 9px; }
+#item-info-bloco-contato-procedimentos { width: auto; height: auto; position: relative; float: left; margin-top: -1px; margin-left: 20px; margin-bottom: 20px; padding: 10px 20px; background-color: #ffffff; color: #04b5ff; font-size: 17px; font-weight: 400; border-radius: 10px; cursor: pointer; }
+.item-procedimento-card-mb-ds-pg { width: 31%; height: 292px; position: relative; float: left; margin-left: 2%; margin-bottom: 36px; padding: 15px 15px; background-color: #fff; border: 1px solid #dadada; border-radius: 10px; cursor: pointer; z-index: 10; }
+#conteudo-sobre-procedimento-pg p { width: 100%; height: auto; position: relative; float: left; margin-top: 0px; margin-bottom: 30px; font-size: 17px; letter-spacing: 0.5px; line-height: 25px; color: #525252; }
 
 
 }
@@ -751,6 +889,44 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
 .item-card-convenio { width: 31.6%; height: auto; position: relative; float: left; margin-left: 1%; margin-bottom: 20px;; border: 1px solid #dadada; border-radius: 10px; background-color: #fff; }
 .logo-convenio-card{width: 100%; height: auto; position: relative; float: left; padding: 13px 50px;}
 
+/*Página de contato*/
+#view-header-pg-contato { width: 92%; height: auto; position: relative; margin: auto; }
+.div-header-pg-contato h2 { width: 90%; height: auto; position: relative; float: left; margin-top: 140px; font-size: 30px; color: #2d2935; }
+.div-header-pg-contato p { width: 65%; height: auto; position: relative; float: left; margin-top: -20px; font-size: 19px; color: #443f4e; }
+.div-header-pg-contato { width: 50%; height: auto; position: relative; float: left; }
+#ilustra-topo-pg-contato { width: 390px; height: 289px; position: relative; float: right; margin-top: 140px; margin-right: 30px; background: url(../img/ilustracao-contato.png); background-size: 390px; }
+#faixa-bloxos-contatos { width: 100%; height: auto; position: relative; float: left; margin-top: 30px; }
+.item-bloco-contato { width: 100%; height: 220px; position: relative; float: left; margin-right: 1.3%; background-color: #fff3f3; border-radius: 20px; border: 1px solid #fff3f3; margin-bottom: 30px; }
+.item-info-bloco-contato { width: auto; height: auto; position: relative; float: left; margin-top: -2px; margin-left: 20px; padding: 10px 20px; background-color: #ffffff; color: #04b5ff; font-size: 17px; font-weight: 400; border-radius: 10px; cursor: pointer; }
+#bloco-mapa-localizacao { width: 100%; height: 770px; position: relative; float: left; margin-top: 8px; margin-bottom: 50px; background-color: #fff3f3; border-radius: 20px; border: 1px solid #fff3f3; }
+#topo-bloco-mapa-localizacao { width: 90%; height: auto; position: relative; margin: auto; }
+#topo-bloco-mapa-localizacao h3 { width: 100%; height: auto; position: relative; float: left; margin-top: 50px; font-size: 30px; color: #eb2e45; text-align: center; font-weight: 400; }
+
+/*Inicio página de faq*/
+#header-faq { width: 100%; height: 510px; position: relative; float: left; background-color: #e8fbff; margin-top: 129px; }
+#view-header-faq { width: 720px; height: auto; position: relative; margin: auto; }
+#icon-topo-header-faq { width: 100%; height: auto; position: relative; float: left; margin-top: 60px; }
+#view-header-faq p { width: 100%; height: auto; position: relative; float: left; margin-top: -10px; font-size: 20px; text-align: center; padding: 0px 20px; }
+#view-s-bloco-perguntas-frequentes { width: 720px; height: auto; position: relative; margin: auto; z-index: 10; }
+#chamada-dicionario-cardiologico h3 { width: 100%; height: auto; position: relative; float: left; margin-top: 20px; font-size: 34px; color: #78858c; text-align: center; font-weight: 400; padding: 0px 160px; }
+
+
+/*Inicio página de procedimentos interna*/
+
+#banner-procedimentos-pg { width: 100%; height: auto; position: relative; float: left; margin-top: 160px; z-index: 99; }
+#view-sobre-procedimento-pg{width:100%;height:auto;position:relative;margin:auto;}
+#icone-banner-procedimentos { width: 80px; height: 80px; position: absolute; left: -16px; top: -71px;/* margin-left: -610px; */ background-color: #f62727; padding: 10px; border: 10px solid #ffffff; z-index: 99; border-radius: 100%; }
+#conteudo-sobre-procedimento-pg { width: 100%; height: auto; position: relative; float: left; padding-left: 20px; padding-right: 30px; }
+#view-banner-procedimentos-pg{width: 95%;height: auto; position: relative; margin: auto; border-radius: 20px; overflow: hidden;}
+#view-sobre-procedimento-pg { width: 95%;  height: auto; position: relative; margin: auto; }
+#item-bloco-contato-procedimentos { width: 100%; height: auto; position: relative; float: left; background-color: #fff3f3; border-radius: 10px; border: 1px solid #fff3f3; margin-top: 40px; padding-bottom: 9px; }
+#item-info-bloco-contato-procedimentos { width: auto; height: auto; position: relative; float: left; margin-top: -1px; margin-left: 20px; margin-bottom: 20px; padding: 10px 20px; background-color: #ffffff; color: #04b5ff; font-size: 17px; font-weight: 400; border-radius: 10px; cursor: pointer; }
+.item-procedimento-card-mb-ds-pg { width: 31%; height: 292px; position: relative; float: left; margin-left: 2%; margin-bottom: 36px; padding: 15px 15px; background-color: #fff; border: 1px solid #dadada; border-radius: 10px; cursor: pointer; z-index: 10; }
+#conteudo-sobre-procedimento-pg { width: 100%; height: auto; position: relative; float: left; padding-left: 20px; }
+#conteudo-sobre-procedimento-pg p { width: 100%; height: auto; position: relative; float: left; margin-top: 0px; margin-bottom: 30px; font-size: 17px; letter-spacing: 0.5px; line-height: 25px; color: #525252; }
+#barra-direita-procedimentos-pg { width: 100%; height: auto; position: relative; float: left; padding-left: 20px; padding-right: 20px; margin-top: -48px; }
+#view-lista-procedimentos { width: 100%; position: relative; margin: auto; padding: 0px 20px; }
+.item-procedimento-card-mb-ds-pg { width: 47%; height: 292px; position: relative; float: left; margin-left: 2%; margin-bottom: 36px; padding: 15px 15px; background-color: #fff; border: 1px solid #dadada; border-radius: 10px; cursor: pointer; z-index: 10; }
 
 }
 
@@ -1030,10 +1206,6 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
 .card-convenio-nome { width: auto; height: auto; position: absolute; right: 15px; top: 20px; font-size: 19px; color: #63637d; text-align: right; }
 
 
-
-
-
-
 /*Jenales*/
 #mask{width: 100%; height: 0%; position: fixed; z-index: 9999; background-color:#fff; opacity: 0;}
 
@@ -1120,6 +1292,73 @@ box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06);
 .fix-estrutura-mb-pg  h3 { margin-top: 75px !important; }
 
 #fix-rodape-pg { width: 100%; height: 20px; position: relative; float: left; }
+
+
+/*Página de contato*/
+#header-pg-contato { width: 100%; height: auto; position: relative; float: left; margin-top: 70px; overflow: hidden;}
+.div-header-pg-contato { width: 70%; height: auto; position: relative; float: left; }
+.div-header-pg-contato-last-child{width: 30%;}
+#ilustra-topo-pg-contato { width: 240px; height: 178px; position: relative; float: right; margin-top: 50px; margin-right: -110px; background: url(../img/ilustracao-contato.png); background-size: 240px; }
+
+.div-header-pg-contato h2 { width: 100%; height: auto; position: relative; float: left; margin-top: 60px; font-size: 20px; color: #2d2935; }
+.div-header-pg-contato p { width: 95%; height: auto; position: relative; float: left; margin-top: -20px; font-size: 15px; color: #443f4e; }
+#cta-int-header-pg-contato { width: 200px; height: auto; position: relative; float: left; padding: 12px 0px; background-color: #de2c30; color: #fff; border-radius: 31px; cursor: pointer; font-size: 14px; text-align: center; }
+#ilustra-topo-pg-contato { width: 230px; height: 171px; position: relative; float: right; margin-top: 50px; margin-right: -110px; background: url(../img/ilustracao-contato.png); background-size: 230px; }
+
+#faixa-bloxos-contatos { width: 100%; height: auto; position: relative; float: left; margin-top: 30px; }
+.item-bloco-contato { width: 100%; height: auto; position: relative; float: left; margin-right: 0%; background-color: #fff3f3; border-radius: 20px; border: 1px solid #fff3f3; padding-bottom: 30px; margin-bottom: 30px; }
+.item-bloco-contato h3 { width: 100%; height: auto; position: relative; float: left; margin-top: 25px; padding: 0px 20px; font-size: 20px; color: #eb2e45; }
+.item-bloco-contato p { width: 100%; height: auto; position: relative; float: left; padding: 0px 20px; margin-top: -10px; font-size: 15px; color: #333333; }
+.item-info-bloco-contato { width: auto; height: auto; position: relative; float: left; margin-top: 10px; margin-left: 20px; padding: 10px 20px; background-color: #ffffff; color: #04b5ff; font-size: 14px; font-weight: 400; border-radius: 10px; cursor: pointer; }
+
+#bloco-mapa-localizacao { width: 99%; height: 710px; position: relative; float: left; margin-top: 0px; margin-bottom: 40px; background-color: #fff3f3; border-radius: 20px; border: 1px solid #fff3f3; }
+#topo-bloco-mapa-localizacao { width: 90%; height: auto; position: relative; margin: auto; }
+#topo-bloco-mapa-localizacao h3 { width: 100%; height: auto; position: relative; float: left; margin-top: 40px; font-size: 24px; color: #eb2e45; text-align: center; font-weight: 400; margin-bottom: 16px; }
+#topo-bloco-mapa-localizacao p { width: 100%; height: auto; position: relative; margin: auto; padding-top: 8px; font-size: 16px; text-align: center; padding: 0px 20px; }
+#container-mapa-localizacao { width: 100%; height: auto; position: relative; float: left; margin-top: 30px; }
+
+
+/*Inicio página de FAQ*/
+#header-faq { width: 100%; height: 470px; position: relative; float: left; background-color: #e8fbff; margin-top: 0px; }
+#view-header-faq { width: 100%; height: auto; position: relative; margin: auto; }
+#icon-topo-header-faq { width: 100%; height: auto; position: relative; float: left; margin-top: 150px; }
+#icon-int-topo-header-faq { width: 120px; height: 42px; position: relative; margin: auto; background: url(../img/icn-header-faq.png); background-size: 120px; }
+#view-header-faq h1 { width: 100%; height: auto; position: relative; float: left; margin-top: 5px; text-align: center; color: #dc2e32; font-size: 26px; font-weight: 400; }
+#view-header-faq p { width: 100%; height: auto; position: relative; float: left; margin-top: -10px; font-size: 16px; text-align: center; padding: 0px 20px; }
+#view-s-bloco-perguntas-frequentes { width: 100%; height: auto; position: relative; margin: auto; z-index: 10; }
+#bloco-int-perguntas-frequentes { width: 90%; height: auto; position: relative; float: left; margin-left: 5%; background-color: #fff; border-radius: 20px; margin-top: -330px; border: 1px solid #c0d8e4; overflow: hidden; }
+.collapsible-header { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; cursor: pointer; -webkit-tap-highlight-color: transparent; line-height: 1.5; padding: 1rem; background-color: #fff; border-bottom: 1px solid #d2e4ff; font-size: 16px; }
+.collapsible-header i { width: 2rem; font-size: 1.6rem; display: inline-block; text-align: center; margin-right: 1px; margin-left: -10px; }
+.collapsible-body { display: none; border-bottom: 1px solid #ddd; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 2rem; font-size: 14px; }
+#chamada-dicionario-cardiologico { width: 100%; height: auto; position: relative; float: left; margin-top: 40px; margin-bottom: 60px; }
+#chamada-dicionario-cardiologico h3 { width: 100%; height: auto; position: relative; float: left; margin-top: 10px; font-size: 23px; color: #78858c; text-align: center; font-weight: 400; padding: 0px 40px; }
+
+
+/*Inicio página de procedimentos interna*/
+#banner-procedimentos-pg { width: 100%; height: auto; position: relative; float: left; margin-top: 0px; z-index: 99; }
+#view-banner-procedimentos-pg { width: 100%; height: auto; position: relative; margin: auto; border-radius: 0px; overflow: hidden; }
+
+#lista-procedimentos-interna { width: 100%; height: auto; position: relative; float: left; background-color: #f1fcff; margin-top: 30px; padding-bottom: 30px; display: none; }
+
+#bg-topo-procedimentos-pg { width: 100%; height: 300px; position: absolute; top: 100px; background: url(../img/blue-dots.png); background-repeat: repeat; display: none; }
+
+#sobre-procedimento-pg { width: 100%; height: auto; position: relative; float: left; margin-top: -90px; background-color: #fff; border-radius: 50px 50px 0px 0px; z-index: 100; margin-bottom: 20px; }
+#view-sobre-procedimento-pg { width: 100%; height: auto; position: relative; margin: auto; }
+#icone-banner-procedimentos { width: 90px; height: 90px; position: absolute; left: 1px; top: -26px;/* margin-left: -610px; */ background-color: #f62727; padding: 10px; border: 16px solid #fff; z-index: 99; border-radius: 100%; }
+#conteudo-sobre-procedimento-pg { width: 100%; height: auto; position: relative; float: left; padding-left: 20px; padding-right: 20px; margin-top: 30px; }
+#conteudo-sobre-procedimento-pg h1 { width: 100%; height: auto; position: relative; float: left; font-size: 22px; color: #f62727; margin-bottom: 6px; margin-top: 45px; font-weight: 600; }
+#conteudo-sobre-procedimento-pg p { width: 100%; height: auto; position: relative; float: left; margin-top: 0px; margin-bottom: 30px; font-size: 15px; letter-spacing: 0.5px; line-height: 25px; color: #525252; }
+#barra-direita-procedimentos-pg { width: 100%; height: auto; position: relative; float: left; padding-left: 20px; padding-right: 20px; }
+#item-bloco-contato-procedimentos { width: 100%; height: auto; position: relative; float: left; background-color: #fff3f3; border-radius: 10px; border: 1px solid #fff3f3; margin-top: 0px; padding-bottom: 29px; }
+#item-bloco-contato-procedimentos h3 { width: 100%; height: auto; position: relative; float: left; margin-top: 25px; padding: 0px 20px; font-size: 19px; color: #eb2e45; }
+#item-bloco-contato-procedimentos p { width: 100%; height: auto; position: relative; float: left; padding: 0px 20px; margin-top: -5px; font-size: 16px; color: #333333; margin-bottom: 20px; }
+#item-info-bloco-contato-procedimentos { width: auto; height: auto; position: relative; float: left; margin-top: -1px; margin-left: 13px; padding: 10px 20px; background-color: #ffffff; color: #04b5ff; font-size: 14px; font-weight: 400; border-radius: 10px; cursor: pointer; }
+#bloco-mensagem-barra-pg-procedimentos p { width: 90%; height: auto; position: relative; float: left; font-size: 15px; color: #fff; padding: 0px 20px; font-weight: 300; }
+#cta-bloco-mensagem-pg-procedimentos { width: auto; height: auto; position: relative; float: left; margin-top: 8px; margin-left: 20px; background-color: #fff; color: #49acff; font-size: 15px; padding: 10px 25px; border-radius: 10px; cursor: pointer; }
+
+#mascara-banner-procedimentos-pg { width: 100%; height: 100%; position: absolute; top: 0px; z-index: 9; background-color: #d0ebff; opacity: 0.4; }
+
+
 
 
 }
@@ -1475,6 +1714,76 @@ box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.06);
 .fix-estrutura-mb-pg  h3 { margin-top: 75px !important; }
 
 #fix-rodape-pg { width: 100%; height: 20px; position: relative; float: left; }
+
+
+
+/*Página de contato*/
+#header-pg-contato { width: 100%; height: auto; position: relative; float: left; margin-top: 70px; overflow: hidden;}
+.div-header-pg-contato { width: 70%; height: auto; position: relative; float: left; }
+.div-header-pg-contato-last-child{width: 30%;}
+#ilustra-topo-pg-contato { width: 240px; height: 178px; position: relative; float: right; margin-top: 50px; margin-right: -110px; background: url(../img/ilustracao-contato.png); background-size: 240px; }
+
+.div-header-pg-contato h2 { width: 100%; height: auto; position: relative; float: left; margin-top: 60px; font-size: 20px; color: #2d2935; }
+.div-header-pg-contato p { width: 75%; height: auto; position: relative; float: left; margin-top: -20px; font-size: 15px; color: #443f4e; }
+#cta-int-header-pg-contato { width: 200px; height: auto; position: relative; float: left; padding: 12px 0px; background-color: #de2c30; color: #fff; border-radius: 31px; cursor: pointer; font-size: 14px; text-align: center; }
+#ilustra-topo-pg-contato { width: 230px; height: 171px; position: relative; float: right; margin-top: 50px; margin-right: -100px; background: url(../img/ilustracao-contato.png); background-size: 230px; }
+
+#faixa-bloxos-contatos { width: 100%; height: auto; position: relative; float: left; margin-top: 30px; }
+.item-bloco-contato { width: 100%; height: auto; position: relative; float: left; margin-right: 0%; background-color: #fff3f3; border-radius: 20px; border: 1px solid #fff3f3; padding-bottom: 30px; margin-bottom: 30px; }
+.item-bloco-contato h3 { width: 100%; height: auto; position: relative; float: left; margin-top: 25px; padding: 0px 20px; font-size: 20px; color: #eb2e45; }
+.item-bloco-contato p { width: 100%; height: auto; position: relative; float: left; padding: 0px 20px; margin-top: -10px; font-size: 15px; color: #333333; }
+.item-info-bloco-contato { width: auto; height: auto; position: relative; float: left; margin-top: 10px; margin-left: 20px; padding: 10px 20px; background-color: #ffffff; color: #04b5ff; font-size: 14px; font-weight: 400; border-radius: 10px; cursor: pointer; }
+
+#bloco-mapa-localizacao { width: 99%; height: 760px; position: relative; float: left; margin-top: 0px; margin-bottom: 40px; background-color: #fff3f3; border-radius: 20px; border: 1px solid #fff3f3; }
+#topo-bloco-mapa-localizacao { width: 90%; height: auto; position: relative; margin: auto; }
+#topo-bloco-mapa-localizacao h3 { width: 100%; height: auto; position: relative; float: left; margin-top: 40px; font-size: 24px; color: #eb2e45; text-align: center; font-weight: 400; margin-bottom: 16px; }
+#topo-bloco-mapa-localizacao p { width: 100%; height: auto; position: relative; margin: auto; padding-top: 8px; font-size: 16px; text-align: center; padding: 0px 20px; }
+#container-mapa-localizacao { width: 100%; height: auto; position: relative; float: left; margin-top: 30px; }
+
+
+/*Inicio página de FAQ*/
+#header-faq { width: 100%; height: 470px; position: relative; float: left; background-color: #e8fbff; margin-top: 0px; }
+#view-header-faq { width: 100%; height: auto; position: relative; margin: auto; }
+#icon-topo-header-faq { width: 100%; height: auto; position: relative; float: left; margin-top: 150px; }
+#icon-int-topo-header-faq { width: 120px; height: 42px; position: relative; margin: auto; background: url(../img/icn-header-faq.png); background-size: 120px; }
+#view-header-faq h1 { width: 100%; height: auto; position: relative; float: left; margin-top: 5px; text-align: center; color: #dc2e32; font-size: 26px; font-weight: 400; }
+#view-header-faq p { width: 100%; height: auto; position: relative; float: left; margin-top: -10px; font-size: 16px; text-align: center; padding: 0px 20px; }
+#view-s-bloco-perguntas-frequentes { width: 100%; height: auto; position: relative; margin: auto; z-index: 10; }
+#bloco-int-perguntas-frequentes { width: 90%; height: auto; position: relative; float: left; margin-left: 5%; background-color: #fff; border-radius: 20px; margin-top: -330px; border: 1px solid #c0d8e4; overflow: hidden; }
+.collapsible-header { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; cursor: pointer; -webkit-tap-highlight-color: transparent; line-height: 1.5; padding: 1rem; background-color: #fff; border-bottom: 1px solid #d2e4ff; font-size: 16px; }
+.collapsible-header i { width: 2rem; font-size: 1.6rem; display: inline-block; text-align: center; margin-right: 1px; margin-left: -10px; }
+.collapsible-body { display: none; border-bottom: 1px solid #ddd; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 2rem; font-size: 14px; }
+#chamada-dicionario-cardiologico { width: 100%; height: auto; position: relative; float: left; margin-top: 40px; margin-bottom: 60px; }
+#chamada-dicionario-cardiologico h3 { width: 100%; height: auto; position: relative; float: left; margin-top: 10px; font-size: 20px; color: #78858c; text-align: center; font-weight: 400; padding: 0px 40px; }
+
+#cta-dicionario-cardiologico-pg-faq-int { width: 240px; height: auto; position: relative; margin: auto; padding: 10px 0px; font-size: 19px; color: #fff; background-color: #de2c30; text-align: center; border-radius: 30px; cursor: pointer; }
+
+
+
+/*Inicio página de procedimentos interna*/
+#banner-procedimentos-pg { width: 100%; height: auto; position: relative; float: left; margin-top: 0px; z-index: 99; }
+#view-banner-procedimentos-pg { width: 100%; height: auto; position: relative; margin: auto; border-radius: 0px; overflow: hidden; }
+#lista-procedimentos-interna { width: 100%; height: auto; position: relative; float: left; background-color: #f1fcff; margin-top: 30px; padding-bottom: 30px; display: none; }
+#bg-topo-procedimentos-pg { width: 100%; height: 300px; position: absolute; top: 100px; background: url(../img/blue-dots.png); background-repeat: repeat; display: none; }
+
+#sobre-procedimento-pg { width: 100%; height: auto; position: relative; float: left; margin-top: -90px; background-color: #fff; border-radius: 50px 50px 0px 0px; z-index: 100; margin-bottom: 20px; }
+#view-sobre-procedimento-pg { width: 100%; height: auto; position: relative; margin: auto; }
+#icone-banner-procedimentos { width: 90px; height: 90px; position: absolute; left: 1px; top: -26px;/* margin-left: -610px; */ background-color: #f62727; padding: 10px; border: 16px solid #fff; z-index: 99; border-radius: 100%; }
+#conteudo-sobre-procedimento-pg { width: 100%; height: auto; position: relative; float: left; padding-left: 20px; padding-right: 20px; margin-top: 30px; }
+#conteudo-sobre-procedimento-pg h1 { width: 100%; height: auto; position: relative; float: left; font-size: 20px; color: #f62727; margin-bottom: 16px; margin-top: 45px; font-weight: 600; }
+#conteudo-sobre-procedimento-pg p { width: 100%; height: auto; position: relative; float: left; margin-top: 0px; margin-bottom: 30px; font-size: 15px; letter-spacing: 0.5px; line-height: 25px; color: #525252; }
+#barra-direita-procedimentos-pg { width: 100%; height: auto; position: relative; float: left; padding-left: 20px; padding-right: 20px; }
+#item-bloco-contato-procedimentos { width: 100%; height: auto; position: relative; float: left; background-color: #fff3f3; border-radius: 10px; border: 1px solid #fff3f3; margin-top: 0px; padding-bottom: 29px; }
+#item-bloco-contato-procedimentos h3 { width: 100%; height: auto; position: relative; float: left; margin-top: 25px; padding: 0px 20px; font-size: 19px; color: #eb2e45; }
+#item-bloco-contato-procedimentos p { width: 100%; height: auto; position: relative; float: left; padding: 0px 20px; margin-top: -5px; font-size: 16px; color: #333333; margin-bottom: 20px; }
+#item-info-bloco-contato-procedimentos { width: 90%; height: auto; position: relative; float: left; margin-top: 17px; margin-left: 13px; padding: 11px 0px; background-color: #ffffff; color: #04b5ff; font-size: 16px; font-weight: 400; border-radius: 10px; cursor: pointer; text-align: center; }
+#bloco-mensagem-barra-pg-procedimentos p { width: 90%; height: auto; position: relative; float: left; font-size: 15px; color: #fff; padding: 0px 20px; font-weight: 300; }
+#cta-bloco-mensagem-pg-procedimentos { width: 90%; height: auto; position: relative; float: left; margin-top: 8px; margin-left: 05%; background-color: #fff; color: #49acff; font-size: 17px; padding: 10px 25px; border-radius: 10px; cursor: pointer; text-align: center; }
+
+#mascara-banner-procedimentos-pg { width: 100%; height: 100%; position: absolute; top: 0px; z-index: 9; background-color: #d0ebff; opacity: 0.4; }
+
+
+
 
 }
 

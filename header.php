@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/materialize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   
  <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
 
@@ -89,11 +90,13 @@
 
 
             <!-- Item de menu -->
+      <a href="contato.php">
       <div class="desktop-menu-item ">
         <div class="ornamento-menu-desktop oranamento-m-e"></div>
         <div class="ornamento-menu-desktop oranamento-m-d"></div>
         <div class="desktop-menu-txt">Contato</div>
       </div>
+      </a>
 
 
             <!-- Item de menu -->
